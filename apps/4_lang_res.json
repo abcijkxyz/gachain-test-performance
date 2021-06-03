@@ -1,0 +1,4771 @@
+{
+    "name": "System",
+    "conditions": "ContractConditions(\"@1DeveloperCondition\")",
+    "data": [
+        {
+            "Name": "a_polls",
+            "Trans": "{\"en\":\"Active polls\",\"zh\":\"正在进行的投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "accept",
+            "Trans": "{\"en\":\"Accept\",\"zh\":\"接受\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "accept_request_member",
+            "Trans": "{\"en\":\"Do you want to accept the request of this member?\",\"zh\":\"您想接受该会员的请求吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "accepted",
+            "Trans": "{\"en\":\"Accepted\",\"zh\":\"接受\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "accepted_contract_not_found",
+            "Trans": "{\"en\":\"The contract for accepted decision is not found\",\"zh\":\"未找到已受理决议的合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "access_denied",
+            "Trans": "{\"en\":\"Access is denied\",\"zh\":\"访问被拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "account",
+            "Trans": "{\"en\":\"Account\",\"zh\":\"账户\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "accounts",
+            "Trans": "{\"en\":\"Accounts\",\"zh\":\"账户\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "action",
+            "Trans": "{\"en\":\"Action\",\"zh\":\"操作\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "actions",
+            "Trans": "{\"en\":\"Actions\",\"zh\":\"操作\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "active",
+            "Trans": "{\"en\":\"Active\",\"zh\":\"活跃\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "add",
+            "Trans": "{\"en\":\"Add\",\"zh\":\"添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "add_description",
+            "Trans": "{\"en\":\"Add a description, please\",\"zh\":\"请添加说明\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "add_parameter",
+            "Trans": "{\"en\":\"Add a parameter\",\"zh\":\"添加参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "add_role",
+            "Trans": "{\"en\":\"Add a role\",\"zh\":\"添加角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "additional_info_edit",
+            "Trans": "{\"en\":\"Edit additional info\",\"zh\":\"编辑更多信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "address",
+            "Trans": "{\"en\":\"Address\",\"zh\":\"地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "address_invalid",
+            "Trans": "{\"en\":\"The address is not valid\",\"zh\":\"地址无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "admin",
+            "Trans": "{\"en\":\"Administrator\",\"zh\":\"管理员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "admin_menu_not_found",
+            "Trans": "{\"en\":\"The admin menu is not found\",\"zh\":\"管理菜单未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "admin_only_action",
+            "Trans": "{\"en\":\"This action is allowed for admin only\",\"zh\":\"此操作仅允许管理员执行\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "admin_tools",
+            "Trans": "{\"en\":\"Admin tools\",\"zh\":\"管理工具\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "agency",
+            "Trans": "{\"en\":\"Agency\",\"zh\":\"机构\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "aggregate",
+            "Trans": "{\"en\":\"Aggregate\",\"zh\":\"合计\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "aid_cannot_zero",
+            "Trans": "{\"en\":\"Application ID cannot equals zero\",\"zh\":\"应用程序ID不能等于0\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "all",
+            "Trans": "{\"en\":\"All\",\"zh\":\"全部\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "all_polls",
+            "Trans": "{\"en\":\"All polls\",\"zh\":\"全部投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "already_start_process_errand",
+            "Trans": "{\"en\":\"Request already processed\",\"zh\":\"该请求已处理\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount",
+            "Trans": "{\"en\":\"Amount\",\"zh\":\"金额\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount_gac",
+            "Trans": "{\"en\":\"GAC amount\",\"zh\":\"GAC 余额\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount_invalid",
+            "Trans": "{\"en\":\"The amount is not valid\",\"zh\":\"该金额无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount_less_equal_zero",
+            "Trans": "{\"en\":\"Amount is less than or equals zero\",\"zh\":\"余额小于等于零\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount_less_than_needed",
+            "Trans": "{\"en\":\"Amount is less than needed\",\"zh\":\"余额低于所需金额\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount_less_zero",
+            "Trans": "{\"en\":\"Amount is less than zero\",\"zh\":\"余额小于零\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount_must_greather_zero",
+            "Trans": "{\"en\":\"Amount must be greater than zero\",\"zh\":\"余额必须大于零\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount_range",
+            "Trans": "{\"en\":\"Amount range\",\"zh\":\"金额范围\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "amount_zero",
+            "Trans": "{\"en\":\"Amount equals zero\",\"zh\":\"余额等于零\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "another_start_process_errand",
+            "Trans": "{\"en\":\"Execution process started by another member\",\"zh\":\"由另一个成员启动的执行过程\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "answer",
+            "Trans": "{\"en\":\"Answer\",\"zh\":\"回答\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "api_address",
+            "Trans": "{\"en\":\"API address\",\"zh\":\"API地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "app_name_missing",
+            "Trans": "{\"en\":\"Application name is missing\",\"zh\":\"缺少应用程序名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "app_not_found",
+            "Trans": "{\"en\":\"The application is not found\",\"zh\":\"未找到应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "app_not_selected",
+            "Trans": "{\"en\":\"An application is not selected\",\"zh\":\"未选择应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "app_param",
+            "Trans": "{\"en\":\"Application parameter\",\"zh\":\"应用参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "app_params",
+            "Trans": "{\"en\":\"Application parameters\",\"zh\":\"应用程序参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "application",
+            "Trans": "{\"en\":\"Application\",\"zh\":\"应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "application_export",
+            "Trans": "{\"en\":\"Application export\",\"zh\": \"导出\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "application_export_select",
+            "Trans": "{\"en\":\"Select an application that you want to export and proceed to the payload generation process\",\"zh\":\"选择要导出的应用程序并继续进行导出过程\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "application_lang_res",
+            "Trans": "{\"en\":\"This page is used to manage language resources\",\"zh\":\"此页面用于管理语言资源\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "application_parameter_not_set",
+            "Trans": "{\"en\":\"Application parameter is not set in %v\",\"zh\":\"应用程序参数未在%v中设置\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "applications",
+            "Trans": "{\"en\":\"Applications\",\"zh\":\"应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "apply",
+            "Trans": "{\"en\":\"Apply\",\"zh\":\"应用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "apply_settings",
+            "Trans": "{\"en\":\"Apply settings\",\"zh\":\"应用设置\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "appointed",
+            "Trans": "{\"en\":\"Appointed\",\"zh\":\"任命\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "appointed_deleted_member",
+            "Trans": "{\"en\":\"Appointed / Deleted\",\"zh\":\"任命/删除\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "appointment_impossible",
+            "Trans": "{\"en\":\"*This role is not assignable. The appointment of new members is impossible\",\"zh\":\"此角色不可分配。不可任命新成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "apps_inactive",
+            "Trans": "{\"en\":\"Inactive applications\",\"zh\":\"未激活的应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "apps_list",
+            "Trans": "{\"en\":\"This page is used to select an installed applications\",\"zh\":\"此页面用于选择已安装的应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "apps_select_error",
+            "Trans": "{\"en\":\"You did not select an application. Viewing resources is not available\",\"zh\":\"您没有选择应用程序。查看资源不可用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "arguments",
+            "Trans": "{\"en\":\"Arguments\",\"zh\":\"参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "assign",
+            "Trans": "{\"en\":\"Assign\",\"zh\":\"分配\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "assigned",
+            "Trans": "{\"en\":\"Assigned\",\"zh\":\"已分配\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "assigned_role",
+            "Trans": "{\"en\":\"Assigned\",\"zh\":\"已分配\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "at",
+            "Trans": "{\"en\":\"at\",\"zh\":\"在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "attacker_key_invalid",
+            "Trans": "{\"en\":\"The attacker key is not valid\",\"zh\":\"攻击者密钥无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "attention",
+            "Trans": "{\"en\":\"ATTENTION! This page has not received parameters needed and is unavailable for viewing\",\"zh\":\"注意!此页面未接收到所需参数，无法查看\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "attention_not_validator",
+            "Trans": "{\"en\":\"You are not a validator\",\"zh\":\"您不是验证人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "attorney",
+            "Trans": "{\"en\":\"Attorney\",\"zh\":\"律师\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "attorney_add",
+            "Trans": "{\"en\":\"Add an attorney\",\"zh\":\"添加律师\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "attorney_id",
+            "Trans": "{\"en\":\"Attorney wallet\",\"zh\":\"律师钱包地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "available",
+            "Trans": "{\"en\":\"Available\",\"zh\":\"可用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "available_sections",
+            "Trans": "{\"en\":\"This section is avaliable for everyone\",\"zh\":\"该部分对每个人都适用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "avatar",
+            "Trans": "{\"en\":\"Avatar\",\"zh\":\"头像\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "average",
+            "Trans": "{\"en\":\"Average\",\"zh\":\"平均\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "back",
+            "Trans": "{\"en\":\"Back\",\"zh\":\"返回\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "balance",
+            "Trans": "{\"en\":\"Balance\",\"zh\":\"余额\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "begin",
+            "Trans": "{\"en\":\"Begin\",\"zh\":\"开始\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "binaries",
+            "Trans": "{\"en\":\"Binaries\",\"zh\":\"二进制文件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "binary_upload",
+            "Trans": "{\"en\":\"Upload binary\",\"zh\":\"上传二进制文件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "bind",
+            "Trans": "{\"en\":\"Bind\",\"zh\":\"绑定\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "binded",
+            "Trans": "{\"en\":\"binded\",\"zh\":\"已绑定\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "birthdate",
+            "Trans": "{\"en\":\"Birthdate\",\"zh\":\"出生日期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "block",
+            "Trans": "{\"en\":\"Block\",\"zh\":\"区块\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "block_history",
+            "Trans": "{\"en\":\"Block history\",\"zh\":\"区块历史\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "block_key",
+            "Trans": "{\"en\":\"Block\",\"zh\":\"冻结\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "block_timer",
+            "Trans": "{\"en\":\"Block timer\",\"zh\":\"区块计时器\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "blockcron_list",
+            "Trans": "{\"en\":\"Block cron timers\",\"zh\":\"区块计划任务计时器\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "blocked_at",
+            "Trans": "{\"en\":\"Date of lock\",\"zh\":\"锁定日期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "blockid_must_greater",
+            "Trans": "{\"en\":\"Block number must be greater than the current\",\"zh\":\"区块高度必须大于当前\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "blocks",
+            "Trans": "{\"en\":\"Blocks\",\"zh\":\"模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "body_text",
+            "Trans": "{\"en\":\"Text\",\"zh\":\"文本\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "broadcast",
+            "Trans": "{\"en\":\"Broadcast\",\"zh\":\"广播\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "btc",
+            "Trans": "{\"en\":\"BTC\",\"zh\":\"比特币\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "buffer_key_empty",
+            "Trans": "{\"en\":\"Buffer key is empty\",\"zh\":\"缓冲区key为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "business",
+            "Trans": "{\"en\":\"Business\",\"zh\":\"商业\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "button_upload",
+            "Trans": "{\"en\":\"Upload\",\"zh\":\"上传\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "can_apply_voting",
+            "Trans": "{\"en\":\"You can apply for the voting\",\"zh\":\"您可以申请投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "cancel",
+            "Trans": "{\"en\":\"Cancel\",\"zh\":\"取消\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_added_before",
+            "Trans": "{\"en\":\"This candidate has already been added before\",\"zh\":\"该候选人已添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_already_validator",
+            "Trans": "{\"en\":\"This candidate is validator already\",\"zh\":\"该候选人已是验证人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_key_not_found",
+            "Trans": "{\"en\":\"The candidate key ID is not found\",\"zh\":\"该候选人Key ID无法找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_manual",
+            "Trans": "{\"en\":\"Candidate (manual addition)\",\"zh\":\"候选人(手动添加)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_not_found",
+            "Trans": "{\"en\":\"The candidate is not found\",\"zh\":\"该候选人没找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_requests",
+            "Trans": "{\"en\":\"Candidate (addition on request)\",\"zh\":\"候选人(按要求添加)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_role_id_not_found",
+            "Trans": "{\"en\":\"The candidates role (id: %v) is not found\",\"zh\":\"该候选角色(id: %v)未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_role_not_found",
+            "Trans": "{\"en\":\"The candidate role is not found\",\"zh\":\"该候选角色未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidate_role_wrong",
+            "Trans": "{\"en\":\"The candidate role is wrong\",\"zh\":\"该候选人角色错误\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidates",
+            "Trans": "{\"en\":\"Candidates\",\"zh\":\"候选人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "candidates_role",
+            "Trans": "{\"en\":\"Candidates role\",\"zh\":\"候选人角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems",
+            "Trans": "{\"en\":\"Ecosystems catalog\",\"zh\":\"生态系统目录\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_conditions",
+            "Trans": "{\"en\":\"Terms and conditions for the entry\",\"zh\":\"生态条款和条件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_desc",
+            "Trans": "{\"en\":\"Ecosystems catalog with detailed information provided by the founders\",\"zh\":\"生态系统目录，及创始人提供的详细信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_description",
+            "Trans": "{\"en\":\"Short description\",\"zh\":\"简短描述\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_description_empty",
+            "Trans": "{\"en\":\"The founder does not provide a description of the ecosystem\",\"zh\":\"创始人没有提供对生态系统的描述介绍\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_editing",
+            "Trans": "{\"en\":\"Ecosystem information edit\",\"zh\":\"编辑生态系统信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_email",
+            "Trans": "{\"en\":\"Contact email\",\"zh\":\"联系邮件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_hardware",
+            "Trans": "{\"en\":\"Ecosystem hardware\",\"zh\":\"生态系统硬件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_logo",
+            "Trans": "{\"en\":\"Ecosystem logo\",\"zh\":\"生态系统Logo\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_manage_button",
+            "Trans": "{\"en\":\"Manage your ecosystems\",\"zh\":\"管理您的生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_payment",
+            "Trans": "{\"en\":\"Necessity of having an GAC\",\"zh\":\"成员加入条件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_phone",
+            "Trans": "{\"en\":\"Contact phone\",\"zh\":\"联系电话\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_preview",
+            "Trans": "{\"en\":\"Ecosystem information preview\",\"zh\":\"生态系统信息预览\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_type",
+            "Trans": "{\"en\":\"Ecosystem type\",\"zh\":\"生态系统类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "catalog_ecosystems_visibility",
+            "Trans": "{\"en\":\"Visibility in the catalog\",\"zh\":\"是否在目录中显示\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "change",
+            "Trans": "{\"en\":\"Change\",\"zh\":\"变更\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "change_conditions",
+            "Trans": "{\"en\":\"Change conditions\",\"zh\":\"变更条件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "checked_by",
+            "Trans": "{\"en\":\"Checked by\",\"zh\":\"检查\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "choose_role_errand",
+            "Trans": "{\"en\":\"Select a role\",\"zh\":\"选择一个角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "clear",
+            "Trans": "{\"en\":\"Clear\",\"zh\":\"清晰的\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "clear_filters",
+            "Trans": "{\"en\":\"Clear filters\",\"zh\":\"清晰的过滤器\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "close",
+            "Trans": "{\"en\":\"Close\",\"zh\":\"关闭\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "closed",
+            "Trans": "{\"en\":\"Closed\",\"zh\":\"关闭\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "closure_type",
+            "Trans": "{\"en\":\"Closure type\",\"zh\":\"闭包类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "column",
+            "Trans": "{\"en\":\"Column\",\"zh\":\"列名\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "column_add",
+            "Trans": "{\"en\":\"Add a column\",\"zh\":\"新增列\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "column_name",
+            "Trans": "{\"en\":\"Column name\",\"zh\":\"列名\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "column_name_desc",
+            "Trans": "{\"en\":\"The column name for the value (Example: onhold)\",\"zh\":\"值的列名(例如:onhold)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "columns",
+            "Trans": "{\"en\":\"Columns\",\"zh\":\"列\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "columns_empty",
+            "Trans": "{\"en\":\"Columns are empty\",\"zh\":\"列为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "comment",
+            "Trans": "{\"en\":\"Comment\",\"zh\":\"注释\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "commission_address",
+            "Trans": "{\"en\":\"Account address\",\"zh\":\"账户地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "commission_pub",
+            "Trans": "{\"en\":\"Account public key\",\"zh\":\"账户公钥\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "companies",
+            "Trans": "{\"en\":\"Companies\",\"zh\":\"公司\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "company",
+            "Trans": "{\"en\":\"Company\",\"zh\":\"公司\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "company_add",
+            "Trans": "{\"en\":\"Add a company\",\"zh\":\"添加一个公司\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "company_role",
+            "Trans": "{\"en\":\"Company role\",\"zh\":\"公司角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "conditions",
+            "Trans": "{\"en\":\"Conditions\",\"zh\":\"条件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "conditions_for_change",
+            "Trans": "{\"en\":\"Conditions for changing permissions\",\"zh\":\"变更权限的条件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "confirm_button",
+            "Trans": "{\"en\":\"Confirm\",\"zh\":\"确认\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "confirmation",
+            "Trans": "{\"en\":\"Confirmation\",\"zh\":\"确认\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract",
+            "Trans": "{\"en\":\"Contract\",\"zh\":\"合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_404",
+            "Trans": "{\"en\":\"The contract is not found\",\"zh\":\"未找到合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_accept",
+            "Trans": "{\"en\":\"Contract of accept\",\"zh\":\"接受合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_accept_des",
+            "Trans": "{\"en\":\"Name of the contract, which should be started if the decision is accepted\",\"zh\":\"合约名称，如决定接受，将立即生效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_accepted",
+            "Trans": "{\"en\":\"The contract is accepted\",\"zh\":\"合约已接受\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_binding_accept",
+            "Trans": "{\"en\":\"Bind contract\",\"zh\":\"绑定合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_binding_another_user_desc",
+            "Trans": "{\"en\":\"In case you want to bind contract to someone's wallet, contract binding request will be send to its owner\",\"zh\":\"如您想将合约绑定到某钱包，合约绑定请求将发送给钱包所有者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_binding_des",
+            "Trans": "{\"en\":\"New offer for binding contract to your wallet from user\",\"zh\":\"用户提出将合约绑定到您钱包的新请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_cannot_unbind",
+            "Trans": "{\"en\":\"You cannot unbind this contract\",\"zh\":\"您不能解除该合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_chain_distorted",
+            "Trans": "{\"en\":\"The contract chain is distorted\",\"zh\":\"合约链已被篡改\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_first_ecosystem_only",
+            "Trans": "{\"en\":\"This contract can be started from the first ecosystem only\",\"zh\":\"该合约只能从第一个生态系统启动\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_history",
+            "Trans": "{\"en\":\"Contract history\",\"zh\":\"合约历史\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_name_missing",
+            "Trans": "{\"en\":\"The contract name is missing\",\"zh\":\"合约名称丢失\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_params_des",
+            "Trans": "{\"en\":\"String in JSON format\",\"zh\":\"JSON格式字符串\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_reject",
+            "Trans": "{\"en\":\"Contract of reject\",\"zh\":\"拒绝合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_reject_des",
+            "Trans": "{\"en\":\"Name of the contract, which should be started if the decision is rejected\",\"zh\":\"合约名称，如决议被拒绝，将立即生效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_rejected",
+            "Trans": "{\"en\":\"The contract is rejected\",\"zh\":\"合约已被拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_run",
+            "Trans": "{\"en\":\"Contract run\",\"zh\":\"合约运行\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_start_tokensrefundaccept_only",
+            "Trans": "{\"en\":\"This contract can only be started from @1TokensRefundAccept\",\"zh\":\"本合约只能从@1TokensRefundAccept启动\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_start_votingdecisioncheck_only",
+            "Trans": "{\"en\":\"This contract can only be started from @1VotingDecisionCheck\",\"zh\":\"本合约只能从@1VotingDecisionCheck启动\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_unknown",
+            "Trans": "{\"en\":\"Unknown contract\",\"zh\":\"未知合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_x_binded_already",
+            "Trans": "{\"en\":\"The contract %d has been already binded\",\"zh\":\"合约%d已生效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_x_not_exist",
+            "Trans": "{\"en\":\"Contract %d does not exist\",\"zh\":\"合约%d不存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contract_x_unbinded_already",
+            "Trans": "{\"en\":\"The contract %d has been already unbinded\",\"zh\":\"合约%d已被解除\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "contracts",
+            "Trans": "{\"en\":\"Contracts\",\"zh\":\"合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "copy",
+            "Trans": "{\"en\":\"Copy\",\"zh\":\"复制\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "create",
+            "Trans": "{\"en\":\"Create\",\"zh\":\"创建\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "create_button",
+            "Trans": "{\"en\":\"CREATE\",\"zh\":\"创建\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "create_ecosystem_price",
+            "Trans": "{\"en\": \"Creating a new ecosystem costs \", \"zh\": \"创建新的生态系统需要\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "create_ecosystem_price_exit",
+            "Trans": "{\"en\": \"After the creation is successful, you need to login again to view\", \"zh\": \"创建成功后你需要重新登录来进行查看\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "create_poll",
+            "Trans": "{\"en\":\"Create poll\",\"zh\":\"创建投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "create_request",
+            "Trans": "{\"en\":\"Create request\",\"zh\":\"创建请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "create_role",
+            "Trans": "{\"en\":\"Create role\",\"zh\":\"创建角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "created",
+            "Trans": "{\"en\":\"Created\",\"zh\":\"创建\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "created_at",
+            "Trans": "{\"en\":\"Сreated at\",\"zh\":\"创建于\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "created_by",
+            "Trans": "{\"en\":\"Сreated by\",\"zh\":\"创建由\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "creator",
+            "Trans": "{\"en\":\"Creator\",\"zh\":\"创建人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "currency_type",
+            "Trans": "{\"en\":\"Сurrency type\",\"zh\":\"货币类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "dashboard",
+            "Trans": "{\"en\":\"Dashboard\",\"zh\":\"仪表板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "dashboard_hint",
+            "Trans": "{\"en\":\"You need to select an application to work with the Dashboard\",\"zh\":\"您需要选择一个应用程序来使用仪表板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "database_write",
+            "Trans": "{\"en\":\"Writing to the database\",\"zh\":\"写入数据库\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "date_created",
+            "Trans": "{\"en\":\"Date created\",\"zh\":\"创建日期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "date_end",
+            "Trans": "{\"en\":\"Date end\",\"zh\":\"结束投票日期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "date_start",
+            "Trans": "{\"en\":\"Date start\",\"zh\":\"开始投票日期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "days",
+            "Trans": "{\"en\":\"days\",\"zh\":\"天\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "decision",
+            "Trans": "{\"en\":\"Decision\",\"zh\":\"决议\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "decision_accepted",
+            "Trans": "{\"en\":\"The decision is accepted\",\"zh\":\"该决议已被接受\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "decision_rejected",
+            "Trans": "{\"en\":\"The decision is rejected\",\"zh\":\"该决议已被拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "decision_type_invalid",
+            "Trans": "{\"en\":\"The decision type is not valid\",\"zh\":\"决议类型无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "default_menu_not_found",
+            "Trans": "{\"en\":\"The default menu is not found\",\"zh\":\"默认菜单未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "delete",
+            "Trans": "{\"en\":\"Delete\",\"zh\":\"禁用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "delete_node",
+            "Trans": "{\"en\":\"Delete node\",\"zh\":\"删除节点\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "deleted",
+            "Trans": "{\"en\":\"Deleted\",\"zh\":\"删除\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "denial",
+            "Trans": "{\"en\":\"Denial\",\"zh\":\"拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "description",
+            "Trans": "{\"en\":\"Description\",\"zh\":\"描述\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "description_desc",
+            "Trans": "{\"en\":\"Subject of voting text description\",\"zh\":\"投票文本描述的主题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "details_view",
+            "Trans": "{\"en\":\"View details\",\"zh\":\"查看详细信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "developer_menu_not_found",
+            "Trans": "{\"en\":\"The developer menu is not found\",\"zh\":\"“开发人员”菜单未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "did_not_vote",
+            "Trans": "{\"en\":\"Did not vote\",\"zh\":\"尚无投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "discussion",
+            "Trans": "{\"en\":\"Discussion\",\"zh\":\"讨论\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "document",
+            "Trans": "{\"en\":\"Document\",\"zh\":\"文档\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "document_accepted",
+            "Trans": "{\"en\":\"The document is accepted\",\"zh\":\"文档已接受\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "document_rejected",
+            "Trans": "{\"en\":\"The document is rejected\",\"zh\":\"文档已拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "done",
+            "Trans": "{\"en\":\"Done\",\"zh\":\"完成\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "download_link",
+            "Trans": "{\"en\":\"Download link\",\"zh\":\"下载链接\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "duration",
+            "Trans": "{\"en\":\"Duration\",\"zh\":\"持续时间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ec_hint",
+            "Trans": "{\"en\":\"To enter, you must log out and log in to your ecosystem\",\"zh\":\"要进入，您必须注销并登录到您的生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem",
+            "Trans": "{\"en\":\"Ecosystem\",\"zh\":\"生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_access",
+            "Trans": "{\"en\":\"Determine access to this ecosystem\",\"zh\":\"确定进入此生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_add_members",
+            "Trans": "{\"en\":\"Add members to the ecosystem \",\"zh\":\"添加成员至生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_authorize",
+            "Trans": "{\"en\":\"Authorize\",\"zh\":\"授权\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_cannot_manage_info",
+            "Trans": "{\"en\":\"You have no rights to manage this ecosystem info\",\"zh\":\"您无权管理该生态系统的信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_close",
+            "Trans": "{\"en\":\"close\",\"zh\":\"关闭\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_entrance",
+            "Trans": "{\"en\":\"Ecosystem entrance\",\"zh\":\"加入生态\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_members",
+            "Trans": "{\"en\":\"Ecosystem members\",\"zh\":\"生态系统成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_members_list_desc",
+            "Trans": "{\"en\":\"А complete list of all ecosystem members\",\"zh\":\"所有生态系统成员的完整列表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_name",
+            "Trans": "{\"en\":\"Ecosystem name\",\"zh\":\"生态系统名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_no_tokens",
+            "Trans": "{\"en\":\"There are no tokens in this ecosystem yet\",\"zh\":\"该生态系统中无通证代币\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_not_found",
+            "Trans": "{\"en\":\"Ecosystem %v not found\",\"zh\":\"生态系统 %v 未被发现\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_not_founder",
+            "Trans": "{\"en\":\"You are not a founder of this ecosystem\",\"zh\":\"您不是该生态系统的创建人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_not_member",
+            "Trans": "{\"en\":\"You are not a member of this ecosystem\",\"zh\":\"您不是该生态系统的会员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_open",
+            "Trans": "{\"en\":\"Open\",\"zh\":\"开放\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_parameters",
+            "Trans": "{\"en\":\"Ecosystem parameters\",\"zh\":\"生态系统参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_request_approved",
+            "Trans": "{\"en\":\"Your request for the membership of the ecosystem %v (%v) was approved\",\"zh\":\"您加入生态系统%v (%v)成员的请求已被批准\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_select",
+            "Trans": "{\"en\":\"Select an ecosystem\",\"zh\":\"选择生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_state",
+            "Trans": "{\"en\":\"Ecosystem state\",\"zh\":\"生态系统状态\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_wallet",
+            "Trans": "{\"en\":\"Ecosystem wallet\",\"zh\":\"专属生态系统钱包\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystem_wallet_desc",
+            "Trans": "{\"en\":\"This page is used to transfer money to the exclusive ecosystem wallet\",\"zh\":\"此页面用于向专属生态系统钱包转账\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystems",
+            "Trans": "{\"en\":\"Ecosystems\",\"zh\":\"生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystems_administrators",
+            "Trans": "{\"en\":\"Ecosystems administrators\",\"zh\":\"生态系统管理员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystems_list",
+            "Trans": "{\"en\":\"Ecosystems list\",\"zh\":\"生态系统列表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ecosystems_list_desc",
+            "Trans": "{\"en\":\"А complete list of all ecosystems\",\"zh\":\"所有生态系统的完整列表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit",
+            "Trans": "{\"en\":\"Edit\",\"zh\":\"编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_block",
+            "Trans": "{\"en\":\"Block edit\",\"zh\":\"区块编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_column",
+            "Trans": "{\"en\":\"Column edit\",\"zh\":\"列编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_contract",
+            "Trans": "{\"en\":\"Contract edit\",\"zh\":\"合约编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_link",
+            "Trans": "{\"en\":\"Link edit\",\"zh\":\"链接编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_menu",
+            "Trans": "{\"en\":\"Menu edit\",\"zh\":\"菜单编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_page",
+            "Trans": "{\"en\":\"Page edit\",\"zh\":\"页面编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_properties",
+            "Trans": "{\"en\":\"Properties edit\",\"zh\":\"属性编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_role",
+            "Trans": "{\"en\":\"Role edit\",\"zh\":\"角色编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "edit_table",
+            "Trans": "{\"en\":\"Table edit\",\"zh\":\"数据表编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "editing",
+            "Trans": "{\"en\":\"Editing\",\"zh\":\"编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "editing_profile",
+            "Trans": "{\"en\":\"Profile edit\",\"zh\":\"个人信息编辑\"}\n",
+            "Type": "languages"
+        },
+        {
+            "Name": "elective_role",
+            "Trans": "{\"en\":\"Elective\",\"zh\":\"可选\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "elective_role_voting_only",
+            "Trans": "{\"en\":\"This is elective role. New members can be assigned through the voting only\",\"zh\":\"此为可选角色，新成员只能通过投票选举产生\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "elective_roles_not_found",
+            "Trans": "{\"en\":\"Elective roles not found\",\"zh\":\"可选角色未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "email",
+            "Trans": "{\"en\":\"Email\",\"zh\":\"电子邮件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "email_invalid",
+            "Trans": "{\"en\":\"The email address you entered is not valid\",\"zh\":\"您输入的电子邮件地址无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "emission",
+            "Trans": "{\"en\":\"Emission\",\"zh\":\"发行\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "empty",
+            "Trans": "{\"en\":\"[no]\",\"zh\":\"(否)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "empty_answer",
+            "Trans": "{\"en\":\"You must fill in the answer field\",\"zh\":\"您必须填写答案字段\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "empty_name",
+            "Trans": "{\"en\":\"Name cannot be empty\",\"zh\":\"名称不能为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "empty_text",
+            "Trans": "{\"en\":\"Text cannot be empty\",\"zh\":\"文本不能为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "empty_wallet",
+            "Trans": "{\"en\":\"Member wallet cannot be empty\",\"zh\":\"成员钱包不能为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ending_date_invalid",
+            "Trans": "{\"en\":\"The ending date is not valid\",\"zh\":\"终止日期无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "enter_data_for_poll_template",
+            "Trans": "{\"en\":\"Enter data for poll template\",\"zh\":\"为投票模板输入数据\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "enter_poll_template_name",
+            "Trans": "{\"en\":\"Enter poll template name\",\"zh\":\"输入投票模板名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "enter_title",
+            "Trans": "{\"en\":\"Enter the title, please\",\"zh\":\"请输入标题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "enter_valid_ip",
+            "Trans": "{\"en\":\"Please enter a valid IP-address\",\"zh\":\"请输入有效的ip地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "enter_your_questions",
+            "Trans": "{\"en\":\"Enter your questions\",\"zh\":\"输入您的问题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "errand_performer",
+            "Trans": "{\"en\":\"Errand performer\",\"zh\":\"任务执行者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "errand_text",
+            "Trans": "{\"en\":\"Errand text\",\"zh\":\"任务文本\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "errands",
+            "Trans": "{\"en\":\"Errands\",\"zh\":\"任务\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "error_run_from_contract",
+            "Trans": "{\"en\":\"The launch of this contract is not permitted from another contract\",\"zh\":\"本合约不得从另一合约中启动\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "eth",
+            "Trans": "{\"en\":\"ETH\",\"zh\":\"以太坊\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "euro",
+            "Trans": "{\"en\":\"Euro\",\"zh\":\"欧元\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "everybody",
+            "Trans": "{\"en\":\"All ecosystem members\",\"zh\":\"所有生态系统成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "execute",
+            "Trans": "{\"en\":\"Execute\",\"zh\":\"执行\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "expiration",
+            "Trans": "{\"en\":\"Expiration\",\"zh\":\"到期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "expiration_date",
+            "Trans": "{\"en\":\"Expiration date\",\"zh\":\"到期日期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "expired",
+            "Trans": "{\"en\":\"Expired\",\"zh\":\"过期的\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "export",
+            "Trans": "{\"en\":\"Export\",\"zh\":\"导出\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "female",
+            "Trans": "{\"en\":\"Female\",\"zh\":\"女\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "file",
+            "Trans": "{\"en\":\"File\",\"zh\":\"文件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "filled",
+            "Trans": "{\"en\":\"Filled\",\"zh\":\"已填充\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "filter",
+            "Trans": "{\"en\":\"Filter\",\"zh\":\"过滤器\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "filters",
+            "Trans": "{\"en\":\"Filters\",\"zh\":\"过滤器\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "finance",
+            "Trans": "{\"en\":\"Finance\",\"zh\":\"金融\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "finished",
+            "Trans": "{\"en\":\"Finished\",\"zh\":\"已结束\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "first_ecosystem_admin_only_action",
+            "Trans": "{\"en\":\"This action is allowed for the first ecosystem admin only\",\"zh\":\"只允许第一个生态系统管理员执行此操作\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "first_node_invalid",
+            "Trans": "{\"en\":\"The application parameter first_node is not valid\",\"zh\":\"应用程序参数first_node无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "for_example",
+            "Trans": "{\"en\":\"for example\",\"zh\":\"例如\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "form_state_name_needed",
+            "Trans": "{\"en\":\"Form name needed to save the form state\",\"zh\":\"保存表单状态所需的表单名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "form_state_param_names_needed",
+            "Trans": "{\"en\":\"Parameter names divided by semicolons needed to save the form state\",\"zh\":\"参数名除以保存表单状态所需的分号\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "gac_not_required",
+            "Trans": "{\"en\":\"GAC is not required\",\"zh\":\"无需持有GAC\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "gac_required",
+            "Trans": "{\"en\":\"GAC is required\",\"zh\":\"必需持有GAC\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "gender",
+            "Trans": "{\"en\":\"Gender\",\"zh\":\"性别\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "guest",
+            "Trans": "{\"en\":\"Guest\",\"zh\":\"访客\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "hardware_description",
+            "Trans": "{\"en\":\"Нardware_description\",\"zh\":\"设备描述\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "header",
+            "Trans": "{\"en\":\"Header\",\"zh\":\"抬头\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "hidden_section",
+            "Trans": "{\"en\":\"Hidden section\",\"zh\":\"隐藏部分\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "hide",
+            "Trans": "{\"en\":\"Hide\",\"zh\":\"隐藏\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "host_ip",
+            "Trans": "{\"en\":\"IP\",\"zh\":\"IP地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "icon",
+            "Trans": "{\"en\":\"Icon\",\"zh\":\"图标\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "id",
+            "Trans": "{\"en\":\"ID\",\"zh\":\"Key ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "image",
+            "Trans": "{\"en\":\"Image\",\"zh\":\"图像\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "import",
+            "Trans": "{\"en\":\"Import\",\"zh\":\"导入\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "import_data",
+            "Trans": "{\"en\":\"Data that you can import\",\"zh\":\"可以导入的数据\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "impossible",
+            "Trans": "{\"en\":\"Impossible\",\"zh\":\"不可能\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "impossible_for_platform_ecosystem",
+            "Trans": "{\"en\":\"Action is impossible for Platform ecosystem\",\"zh\":\"平台生态系统不可执行该行动\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "in_progress",
+            "Trans": "{\"en\":\"In progress\",\"zh\":\"进行中\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "inactive_warning",
+            "Trans": "{\"en\":\"You don't have any inactive applications\",\"zh\":\"您没有任何不活跃的应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "individual_errands",
+            "Trans": "{\"en\":\"Individual errands\",\"zh\":\"个人任务\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "information",
+            "Trans": "{\"en\":\"Information\",\"zh\":\"信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "init_condition",
+            "Trans": "{\"en\":\"Condition for starting the process\",\"zh\":\"启动处理的条件\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "init_contract",
+            "Trans": "{\"en\":\"Initial contract\",\"zh\":\"初始化合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "init_contract_not_found",
+            "Trans": "{\"en\":\"The initial contract is not found\",\"zh\":\"初始化合约未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "insert",
+            "Trans": "{\"en\":\"Inserting\",\"zh\":\"新增\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "insert_condition_empty",
+            "Trans": "{\"en\":\"The insert condition is empty\",\"zh\":\"插入条件为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "install",
+            "Trans": "{\"en\":\"Install\",\"zh\":\"安装\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "install_default_roles",
+            "Trans": "{\"en\":\"Install default roles\",\"zh\":\"安装默认角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "install_default_templates",
+            "Trans": "{\"en\":\"Install default templates\",\"zh\":\"安装默认模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "installing_platform_apps",
+            "Trans": "{\"en\":\"Installing platform applications\",\"zh\":\"安装平台应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "installing_text",
+            "Trans": "{\"en\":\"Installing platform applications is a must. Platform applications ensure the functioning of your ecosystem.\",\"zh\":\"必须安装平台应用程序，平台应用程序确保了该生态系统的基础功能。\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "institution",
+            "Trans": "{\"en\":\"Institution\",\"zh\":\"机构\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "interval",
+            "Trans": "{\"en\":\"Interval\",\"zh\":\"时间间隔\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "interval_blocks",
+            "Trans": "{\"en\":\"Interval, in blocks\",\"zh\":\"间隔, 在区块中\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "interval_too_big",
+            "Trans": "{\"en\":\"The interval is too big\",\"zh\":\"间隔太大\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "invalid",
+            "Trans": "{\"en\":\"Invalid\",\"zh\":\"无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "invalid_expiration_date",
+            "Trans": "{\"en\":\"Invalid expiration date\",\"zh\":\"无效的截止日期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "invalid_full_nodes",
+            "Trans": "{\"en\":\"The system parameter is incorrect: full_nodes\",\"zh\":\"系统参数不正确:full_nodes\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "invalid_time_end",
+            "Trans": "{\"en\":\"Invalid time end\",\"zh\":\"无效的时间结束\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "investment_amount",
+            "Trans": "{\"en\":\"Investment amount\",\"zh\":\"投资金额\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "investor_added_already",
+            "Trans": "{\"en\":\"This investor was already added\",\"zh\":\"该投资人已加入\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "investor_funds_transfer_date",
+            "Trans": "{\"en\":\"Date of the investor funds transfer\",\"zh\":\"投资人转账日期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "investor_role_not_found_or_removed",
+            "Trans": "{\"en\":\"The Investor role is not found or has been removed\",\"zh\":\"投资人角色未找到或已被移除\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ip_long",
+            "Trans": "{\"en\":\"IP-address length is too long\",\"zh\":\"ip地址长度过长\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ip_short",
+            "Trans": "{\"en\":\"IP-address length is too short\",\"zh\":\"ip地址长度太短\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "is_accepted",
+            "Trans": "{\"en\":\"is accepted\",\"zh\":\"已接受\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "is_rejected",
+            "Trans": "{\"en\":\"is rejected\",\"zh\":\"已拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "is_valued",
+            "Trans": "{\"en\":\"is valued\",\"zh\":\"有值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "issue",
+            "Trans": "{\"en\":\"Issue\",\"zh\":\"问题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "item_not_found",
+            "Trans": "{\"en\":\"The item is not found\",\"zh\":\"该项目未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "jurisdiction",
+            "Trans": "{\"en\":\"jurisdiction\",\"zh\":\"生态系统权限\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_added_already",
+            "Trans": "{\"en\":\"This key was already added\",\"zh\":\"此 key 已添加过\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_already_exists",
+            "Trans": "{\"en\":\"This key already exists\",\"zh\":\"此 key 已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_id",
+            "Trans": "{\"en\":\"ID\",\"zh\":\"ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_id_consensus",
+            "Trans": "{\"en\":\"Signer consensus\",\"zh\":\"签署共识\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_id_investor",
+            "Trans": "{\"en\":\"Investor \",\"zh\":\"投资人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_id_or_wallet",
+            "Trans": "{\"en\":\"Key ID or wallet\",\"zh\":\"账户ID或钱包地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_id_sale_apl_admin",
+            "Trans": "{\"en\":\"Tokens sale admin\",\"zh\":\"通证销售管理\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_id_sale_apl_manager",
+            "Trans": "{\"en\":\"Tokens sale manager\",\"zh\":\"通证销售管理者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_id_seller",
+            "Trans": "{\"en\":\"Tokens seller\",\"zh\":\"通证卖家\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_not_found",
+            "Trans": "{\"en\":\"The key ID is not found\",\"zh\":\"找不到密钥ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_too_long",
+            "Trans": "{\"en\":\"The key is too long\",\"zh\":\"key 太长\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "key_too_short",
+            "Trans": "{\"en\":\"The key is too short\",\"zh\":\"key 太短\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "keys_must_be_separated",
+            "Trans": "{\"en\":\"Keys must be separated by a comma\",\"zh\":\"key 之间必须用逗号隔开\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "lang_res",
+            "Trans": "{\"en\":\"Language resources\",\"zh\":\"多语言资源\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "languages",
+            "Trans": "{\"en\":\"Languages\",\"zh\":\"语言\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "limit",
+            "Trans": "{\"en\":\"Limit\",\"zh\":\"限制\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "link",
+            "Trans": "{\"en\":\"Link\",\"zh\":\"链接\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "load",
+            "Trans": "{\"en\":\"Load\",\"zh\":\"加载\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "locale_add",
+            "Trans": "{\"en\":\"Add a localization\",\"zh\":\"添加语种\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "locale_empty",
+            "Trans": "{\"en\":\"The localization is empty\",\"zh\":\"本地化资源为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "localization",
+            "Trans": "{\"en\":\"Locale\",\"zh\":\"本地化\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "logo",
+            "Trans": "{\"en\":\"Logo\",\"zh\":\"Logo\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "main_section",
+            "Trans": "{\"en\":\"Main section\",\"zh\":\"主要部分\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "main_section_warning",
+            "Trans": "{\"en\":\"The section with 'Main section' status must be only one and can be only reassigned\",\"zh\":\"具有“主要部分”状态的部分必须只有一个，并且只能重新分配\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "male",
+            "Trans": "{\"en\":\"Male\",\"zh\":\"男\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "manager_reject_comment",
+            "Trans": "{\"en\":\"Manager comment\",\"zh\":\"管理评论\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "manager_rejected_at",
+            "Trans": "{\"en\":\"Rejected by manager at\",\"zh\":\"管理拒绝于\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "manual_add",
+            "Trans": "{\"en\":\"Manual adding\",\"zh\":\"手动添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "mark_read",
+            "Trans": "{\"en\":\"Mark as read\",\"zh\":\"标记为已读\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "maximum",
+            "Trans": "{\"en\":\"Maximum\",\"zh\":\"最大值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "member",
+            "Trans": "{\"en\":\"Member\",\"zh\":\"成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "member_added_before",
+            "Trans": "{\"en\":\"This member has already been added before\",\"zh\":\"该成员以前已添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "member_id",
+            "Trans": "{\"en\":\"Member ID\",\"zh\":\"成员身份\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "member_name",
+            "Trans": "{\"en\":\"Member name\",\"zh\":\"成员名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "member_name_taken",
+            "Trans": "{\"en\":\"This member name is already taken. Enter another name, please\",\"zh\":\"该成员名已存在，请输入另一个名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "member_not_fount",
+            "Trans": "{\"en\":\"Member not found\",\"zh\":\"成员未发现\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "members",
+            "Trans": "{\"en\":\"Members\",\"zh\":\"成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "members_add",
+            "Trans": "{\"en\":\"Add members\",\"zh\":\"添加成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "membership",
+            "Trans": "{\"en\":\"Membership\",\"zh\":\"成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "membership_management",
+            "Trans": "{\"en\":\"Membership management and\",\"zh\":\"成员管理和\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "membership_request",
+            "Trans": "{\"en\":\"Membership request\",\"zh\":\"成员资格要求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "membership_request_accept",
+            "Trans": "{\"en\":\"Do you want to accept this request?\",\"zh\":\"您想接受该请求吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "membership_request_new",
+            "Trans": "{\"en\":\"New request for the membership\",\"zh\":\"新成员申请\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "membership_request_reject",
+            "Trans": "{\"en\":\"Do you want to reject this request?\",\"zh\":\"您想拒绝该请求吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "membership_requests",
+            "Trans": "{\"en\":\"Membership requests\",\"zh\":\"成员资格要求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "membership_roles_notifications",
+            "Trans": "{\"en\":\"Membership, roles, notifications\",\"zh\":\"成员/角色/通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "menu",
+            "Trans": "{\"en\":\"Menu\",\"zh\":\"菜单\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "menu_history",
+            "Trans": "{\"en\":\"Menu history\",\"zh\":\"菜单历史\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "menu_section",
+            "Trans": "{\"en\":\"This page is used to manage menus\",\"zh\":\"此页面用于管理菜单\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "menu_title",
+            "Trans": "{\"en\":\"Menu title\",\"zh\":\"菜单标题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_active_threads",
+            "Trans": "{\"en\":\"Active threads\",\"zh\":\"活跃主题帖\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_create",
+            "Trans": "{\"en\":\"Create message\",\"zh\":\"创建消息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_from",
+            "Trans": "{\"en\":\"Message from\",\"zh\":\"消息从\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_from_you",
+            "Trans": "{\"en\":\"Message from you\",\"zh\":\"消息从您\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_subject",
+            "Trans": "{\"en\":\"Subject\",\"zh\":\"主题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_subject_empty",
+            "Trans": "{\"en\":\"No subject\",\"zh\":\"无主题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_subject_type_here",
+            "Trans": "{\"en\":\"Describe the subject of your message\",\"zh\":\"描述您信息的主题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_text",
+            "Trans": "{\"en\":\"Message text\",\"zh\":\"消息内容\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_thread_history",
+            "Trans": "{\"en\":\"Thread history\",\"zh\":\"主题帖历史\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_thread_show",
+            "Trans": "{\"en\":\"Show thread\",\"zh\":\"显示主题帖\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_type_here",
+            "Trans": "{\"en\":\"Type your message here\",\"zh\":\"在这里输入您的消息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "message_view",
+            "Trans": "{\"en\":\"Message view\",\"zh\":\"查看消息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "messages_empty",
+            "Trans": "{\"en\":\"There are no messages yet. You can create your first message using the Plus button at the top right corner\",\"zh\":\"目前还没有消息。您可以使用右上角的Plus按钮创建第一个消息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "messenger",
+            "Trans": "{\"en\":\"Messenger\",\"zh\":\"消息中心\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "metrics",
+            "Trans": "{\"en\":\"Metrics\",\"zh\":\"指标\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "minimum",
+            "Trans": "{\"en\":\"Minimum\",\"zh\":\"最低\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "more",
+            "Trans": "{\"en\":\"more\",\"zh\":\"更多的\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "multiple",
+            "Trans": "{\"en\":\"Multiple\",\"zh\":\"多个\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "my_account",
+            "Trans": "{\"en\":\"My account\",\"zh\":\"我的账户\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "my_polls",
+            "Trans": "{\"en\":\"My polls\",\"zh\":\"我的投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "name",
+            "Trans": "{\"en\":\"Name\",\"zh\":\"名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "name_first",
+            "Trans": "{\"en\":\"First name\",\"zh\":\"名\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "name_last",
+            "Trans": "{\"en\":\"Last name\",\"zh\":\"姓\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "name_middle",
+            "Trans": "{\"en\":\"Middle name\",\"zh\":\"中间名\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_app",
+            "Trans": "{\"en\":\"New application\",\"zh\":\"新的应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_column",
+            "Trans": "{\"en\":\"New column\",\"zh\":\"新列\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_column_condition_empty",
+            "Trans": "{\"en\":\"The new column condition is empty\",\"zh\":\"新的列条件为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_ecosystem",
+            "Trans": "{\"en\":\"New ecosystem\",\"zh\":\"新的生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_errand",
+            "Trans": "{\"en\":\"New errand\",\"zh\":\"新任务\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_langres",
+            "Trans": "{\"en\":\"New language resource\",\"zh\":\"新的语言资源\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_parameter",
+            "Trans": "{\"en\":\"New parameter\",\"zh\":\"新的参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_request_received",
+            "Trans": "{\"en\":\"New request is received\",\"zh\":\"收到新请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_role",
+            "Trans": "{\"en\":\"New role\",\"zh\":\"新角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_section",
+            "Trans": "{\"en\":\"New section\",\"zh\":\"新标签\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_template",
+            "Trans": "{\"en\":\"New template\",\"zh\":\"新模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_value",
+            "Trans": "{\"en\":\"New value\",\"zh\":\"新值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "new_voting",
+            "Trans": "{\"en\":\"New voting\",\"zh\":\"新建投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "next",
+            "Trans": "{\"en\":\"Next\",\"zh\":\"下一个\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "no",
+            "Trans": "{\"en\":\"No\",\"zh\":\"否\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "no_assigned_roles",
+            "Trans": "{\"en\":\"There are no assignable roles in this ecosystem. Cannot send the request\",\"zh\":\"该生态系统中没有可分配的角色，无法发送请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "no_expiration",
+            "Trans": "{\"en\":\"No expiration\",\"zh\":\"未过期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "node_founder_key_id",
+            "Trans": "{\"en\":\"Key ID of the node founder\",\"zh\":\"节点创建者Key ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "node_pub_key",
+            "Trans": "{\"en\":\"Node public key\",\"zh\":\"节点公钥\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "not_enough_votes",
+            "Trans": "{\"en\":\"Not enough votes\",\"zh\":\"票数不够\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "not_filled",
+            "Trans": "{\"en\":\"Not filled\",\"zh\":\"未填充\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "not_found",
+            "Trans": "{\"en\":\"is not found\",\"zh\":\"未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "not_founded",
+            "Trans": "{\"en\":\"not found\",\"zh\":\"未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "not_participants",
+            "Trans": "{\"en\":\"Not has participants\",\"zh\":\"尚无参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "not_started",
+            "Trans": "{\"en\":\"Not started\",\"zh\":\"未开始\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "not_validator_can_not_run",
+            "Trans": "{\"en\":\"You are not a validator. You cannot run this\",\"zh\":\"您不是验证人，不能运行\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "not_voted",
+            "Trans": "{\"en\":\"Not voted\",\"zh\":\"尚无投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "nothing_selected",
+            "Trans": "{\"en\":\"Nothing selected\",\"zh\":\"尚无选择\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notice_processing_started_another_member",
+            "Trans": "{\"en\":\"Processing of this notice has been started by another member\",\"zh\":\"本通知已由另一名成员开始处理\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_another_member",
+            "Trans": "{\"en\":\"You cannot close the notification\",\"zh\":\"您无法关闭通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_not_found",
+            "Trans": "{\"en\":\"The notification is not found\",\"zh\":\"未找到通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_not_part_of_role",
+            "Trans": "{\"en\":\"Sorry, you are not a part of the role this notification is intended for\",\"zh\":\"对不起，您不是此通知所针对的角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_processing_not_started",
+            "Trans": "{\"en\":\"Processing of this notification has not started yet\",\"zh\":\"此通知的处理尚未启动\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_processing_started_already",
+            "Trans": "{\"en\":\"Processing of this notification has started already\",\"zh\":\"此通知的处理已开始\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_sender_member",
+            "Trans": "{\"en\":\"Send from me\",\"zh\":\"从我发送\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_sender_role",
+            "Trans": "{\"en\":\"Send from current role\",\"zh\":\"从当前角色发送\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_type_not_defined",
+            "Trans": "{\"en\":\"Notification type is not defined\",\"zh\":\"未定义通知类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notification_type_not_found",
+            "Trans": "{\"en\":\"The notification type is not found\",\"zh\":\"未找到通知类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notifications",
+            "Trans": "{\"en\":\"Notifications\",\"zh\":\"通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notifications_broadcast",
+            "Trans": "{\"en\":\"Notifications broadcast\",\"zh\":\"广播通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notifications_install_needed",
+            "Trans": "{\"en\":\"You should install application which contain contract for sending notifications first\",\"zh\":\"您应该先安装包含发送通知合约的应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notifications_list_desc",
+            "Trans": "{\"en\":\"This page is used to create and manage notifications\",\"zh\":\"此页面用于创建和管理通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notifications_sent_already",
+            "Trans": "{\"en\":\"Notifications has already been sent\",\"zh\":\"通知已发出\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notifications_show_all",
+            "Trans": "{\"en\":\"Show all notifications\",\"zh\":\"显示所有通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "notifications_view",
+            "Trans": "{\"en\":\"Notification view\",\"zh\":\"查看通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "number_votes",
+            "Trans": "{\"en\":\"Number of votes\",\"zh\":\"票数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "old_value",
+            "Trans": "{\"en\":\"Old value\",\"zh\":\"旧值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "onhold",
+            "Trans": "{\"en\":\"On hold\",\"zh\":\"搁置\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "only_admin_action",
+            "Trans": "{\"en\":\"Any actions on this page are available to administrators only\",\"zh\":\"本页上的任何操作仅供管理员使用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "only_first_ecosystem_action",
+            "Trans": "{\"en\":\"Any actions on this page are available in the first ecosystem only\",\"zh\":\"本页上的任何操作仅在第一个生态系统中可用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "optional",
+            "Trans": "{\"en\":\"[Optional]\",\"zh\":\"(可选)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "organization",
+            "Trans": "{\"en\":\"Organization\",\"zh\":\"组织\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "other_ecosystems_not_found",
+            "Trans": "{\"en\":\"There are no other ecosystems found\",\"zh\":\"未发现其它生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "page",
+            "Trans": "{\"en\":\"Page\",\"zh\":\"页面\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "page_history",
+            "Trans": "{\"en\":\"Page history\",\"zh\":\"页面历史\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "pages",
+            "Trans": "{\"en\":\"Pages\",\"zh\":\"页面\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "parameter",
+            "Trans": "{\"en\":\"Parameter\",\"zh\":\"参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "parameter_name",
+            "Trans": "{\"en\":\"Parameter name\",\"zh\":\"参数名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "params",
+            "Trans": "{\"en\":\"Parameters\",\"zh\":\"参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "participant_add",
+            "Trans": "{\"en\":\"Add a participant\",\"zh\":\"添加一个参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "participants",
+            "Trans": "{\"en\":\"Participants\",\"zh\":\"参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "participants_add",
+            "Trans": "{\"en\":\"Add a participants\",\"zh\":\"添加一个参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "payload",
+            "Trans": "{\"en\":\"The payload was formed. You can download it now\",\"zh\":\"应用程序文件已形成，您现在即可下载\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "payload_select",
+            "Trans": "{\"en\":\"Select the payload that you want to import\",\"zh\":\"选择要导入的应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "pending_notifics",
+            "Trans": "{\"en\":\"Pending notifications\",\"zh\":\"待处理通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "percent_votes",
+            "Trans": "{\"en\":\"Percentage of votes\",\"zh\":\"选票比例\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "performer_from_role",
+            "Trans": "{\"en\":\"Performer from the role\",\"zh\":\"角色中的执行者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "personal_notifics",
+            "Trans": "{\"en\":\"Personal notifications\",\"zh\":\"个人通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "personal_type",
+            "Trans": "{\"en\":\"Personal\",\"zh\":\"个人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "phone",
+            "Trans": "{\"en\":\"Phone\",\"zh\":\"电话\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "platform_apps",
+            "Trans": "{\"en\":\"Platform applications\",\"zh\":\"平台应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "platform_apps_install",
+            "Trans": "{\"en\":\"Install platform apps\",\"zh\":\"安装平台应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "platform_parameters",
+            "Trans": "{\"en\":\"Platform parameters\",\"zh\":\"平台参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "platform_params_desc",
+            "Trans": "{\"en\":\"Parameters for configuring nodes, transactions, blocks and payment for network resources. It can only be changed through the voting process\",\"zh\":\"用于为网络资源配置节点、事务、区块和支付的参数，只有通过投票程序才可更改\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "platform_section",
+            "Trans": "{\"en\":\"This section is used to install the platform applications\",\"zh\":\"本部分用于安装平台应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "please_select",
+            "Trans": "{\"en\":\"please select\",\"zh\":\"请选择\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa",
+            "Trans": "{\"en\":\"Power of attorney\",\"zh\":\"委托书\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_add",
+            "Trans": "{\"en\":\"Add power of attorney\",\"zh\":\"添加委托书\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_exceeded_daily_limit",
+            "Trans": "{\"en\":\"Exceeded daily transfer limit\",\"zh\":\"超出每日转账限额\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_exceeded_monthly_limit",
+            "Trans": "{\"en\":\"Exceeded monthly transfer limit\",\"zh\":\"超过每月转账限额\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_exceeded_single_limit",
+            "Trans": "{\"en\":\"Exceeded singly transfer limit\",\"zh\":\"超过单次转账限额\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_expired",
+            "Trans": "{\"en\":\"Power of attorney expired\",\"zh\":\"委托书过期\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_list",
+            "Trans": "{\"en\":\"Power of attorney\",\"zh\":\"委托书\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_not_found",
+            "Trans": "{\"en\":\"Power of attorney not found\",\"zh\":\"未找到授权书\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_not_rights_to_change",
+            "Trans": "{\"en\":\"Not enough rights to change the parameters of this power of attorney\",\"zh\":\"无权更改本授权书的参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_not_rights_to_create",
+            "Trans": "{\"en\":\"Not enough rights to create. You are not the admin of this ecosystem\",\"zh\":\"无权创建，您不是该生态系统的管理员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_not_rights_to_delete",
+            "Trans": "{\"en\":\"Not enough rights to delete. You are not the creator of this power of attorney\",\"zh\":\"无权删除，您不是本授权书的创建者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_not_rights_to_edit",
+            "Trans": "{\"en\":\"Not enough rights to change. You are not the creator of this power of attorney\",\"zh\":\"无权更改，您不是本授权书的创建者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_template_list",
+            "Trans": "{\"en\":\"Power of attorney Templates\",\"zh\":\"委托书模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poa_template_not_found",
+            "Trans": "{\"en\":\"Power of attorney Template not found\",\"zh\":\"委托书模板未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poll",
+            "Trans": "{\"en\":\"Poll\",\"zh\":\"投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poll_filters_list",
+            "Trans": "{\"en\":\"Poll filters list\",\"zh\":\"过滤器列表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poll_name",
+            "Trans": "{\"en\":\"Poll name\",\"zh\":\"投票/民调名称\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "poll_start",
+            "Trans": "{\"en\":\"Polling dates are specified when the template is launched.\",\"zh\":\"民调/投票日期在模板启动时指定。\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "polls",
+            "Trans": "{\"en\":\"Polls\",\"zh\":\"投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "polls_templates",
+            "Trans": "{\"en\":\"Polls templates\",\"zh\":\"投票/民调模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "popup",
+            "Trans": "{\"en\":\"Popup window\",\"zh\":\"弹出窗口\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "possible",
+            "Trans": "{\"en\":\"Possible\",\"zh\":\"可以\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "power_of_attorney_params",
+            "Trans": "{\"en\":\"Power of attorney parameters\",\"zh\":\"委托书参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "processing",
+            "Trans": "{\"en\":\"Processing\",\"zh\":\"处理\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "profile",
+            "Trans": "{\"en\":\"Profile\",\"zh\":\"个人信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "progress",
+            "Trans": "{\"en\":\"Progress\",\"zh\":\"进度\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "pub_key",
+            "Trans": "{\"en\":\"Public key\",\"zh\":\"公钥\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "public_key_empty",
+            "Trans": "{\"en\":\"The public key is empty\",\"zh\":\"公钥为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "public_key_invalid",
+            "Trans": "{\"en\":\"The public key is not valid\",\"zh\":\"公钥无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "public_key_type",
+            "Trans": "{\"en\":\"Public key type\",\"zh\":\"公钥类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "public_org",
+            "Trans": "{\"en\":\"Public organization\",\"zh\":\"公共组织\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "question",
+            "Trans": "{\"en\":\"Question\",\"zh\":\"问题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "quorum_range_must_be",
+            "Trans": "{\"en\":\"Quorum [%v] must be in the range of 5% to 100%\",\"zh\":\"法定人数[%v]必须在5%到100%之间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "quorum_range_wrong",
+            "Trans": "{\"en\":\"The quorum range is wrong\",\"zh\":\"仲裁范围错误\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "read_condition_empty",
+            "Trans": "{\"en\":\"The read condition is empty\",\"zh\":\"读取条件为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "read_please",
+            "Trans": "{\"en\":\"Please read\",\"zh\":\"请阅读\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "reading",
+            "Trans": "{\"en\":\"Read\",\"zh\":\"阅读\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "recipient",
+            "Trans": "{\"en\":\"Recipient\",\"zh\":\"接收方\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "recipient_account",
+            "Trans": "{\"en\":\"Recipient account\",\"zh\":\"接收方账户\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "recipient_blocked",
+            "Trans": "{\"en\":\"The recipient is blocked\",\"zh\":\"接收方被阻止\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "recipient_deleted",
+            "Trans": "{\"en\":\"The recipient is deleted\",\"zh\":\"删除接收方\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "recipient_invalid",
+            "Trans": "{\"en\":\"The recipient is not valid\",\"zh\":\"接收方无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "recipient_role_no_members",
+            "Trans": "{\"en\":\"The recipient role does not contain any members\",\"zh\":\"接收方角色不包含任何成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "recipient_role_not_found",
+            "Trans": "{\"en\":\"The recipients role is not found\",\"zh\":\"接收方角色未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "recipient_x_invalid",
+            "Trans": "{\"en\":\"The recipient %v is not valid\",\"zh\":\"接收方%v无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "regular_section",
+            "Trans": "{\"en\":\"Regular section\",\"zh\":\"规则部分\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "reject",
+            "Trans": "{\"en\":\"Reject\",\"zh\":\"拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "rejected",
+            "Trans": "{\"en\":\"Rejected\",\"zh\":\"已拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "rejected_at",
+            "Trans": "{\"en\":\"Rejected at\",\"zh\":\"拒绝于\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "rejected_contract_not_found",
+            "Trans": "{\"en\":\"The contract for rejected decision is not found\",\"zh\":\"拒绝决议合约未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "remove_confirmation",
+            "Trans": "{\"en\":\"Do you really want to remove this item from the application?\",\"zh\":\"您真的想从应用程序中删除该项目吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "removing_node_impossible",
+            "Trans": "{\"en\":\"The minimum number of nodes. Node deleting is impossible\",\"zh\":\"最小节点数，不可删除节点\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "reply",
+            "Trans": "{\"en\":\"Reply\",\"zh\":\"回复\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "reply_text",
+            "Trans": "{\"en\":\"Reply text\",\"zh\":\"回复文本\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request",
+            "Trans": "{\"en\":\"Request\",\"zh\":\"请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_approved",
+            "Trans": "{\"en\":\"The request was approved\",\"zh\":\"请求已被批准\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_contract_binding",
+            "Trans": "{\"en\":\"Contract binding request\",\"zh\":\"合约绑定请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_info",
+            "Trans": "{\"en\":\"Request info\",\"zh\":\"请求信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_not_sent",
+            "Trans": "{\"en\":\"The request was not sent\",\"zh\":\"请求未发送\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_processed_already",
+            "Trans": "{\"en\":\"The request was processed already\",\"zh\":\"请求已被处理\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_refund",
+            "Trans": "{\"en\":\"Request the refund\",\"zh\":\"请求退款\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_reject",
+            "Trans": "{\"en\":\"Reject request\",\"zh\":\"拒绝请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_rejected",
+            "Trans": "{\"en\":\"The request was rejected\",\"zh\":\"请求已被拒绝\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_sent_already",
+            "Trans": "{\"en\":\"The request was sent already\",\"zh\":\"请求已发送\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_to_membership",
+            "Trans": "{\"en\":\"Request for the ecosystem membership\",\"zh\":\"请求加入该生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_to_role",
+            "Trans": "{\"en\":\"Request to the role\",\"zh\":\"对角色的请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "request_wating",
+            "Trans": "{\"en\":\"The request has been sent. Wait for the administrator decision\",\"zh\":\"请求已发送，等待管理员的决定\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "required_logo",
+            "Trans": "{\"en\":\"Logo is required\",\"zh\":\"Logo 是必需的\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "resign",
+            "Trans": "{\"en\":\"Resign\",\"zh\":\"辞职\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "resources_fees",
+            "Trans": "{\"en\":\"Fee for resources\",\"zh\":\"资源费用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "resources_fees_show",
+            "Trans": "{\"en\":\"Show fees for resources\",\"zh\":\"显示资源费用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "restore",
+            "Trans": "{\"en\":\"Restore\",\"zh\":\"恢复\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "restore_select",
+            "Trans": "{\"en\":\"Select the target application in which you want to restore this object\",\"zh\":\"选择要恢复此对象的目标应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "result",
+            "Trans": "{\"en\":\"Result\",\"zh\":\"结果\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "right_sign",
+            "Trans": "{\"en\":\"Signing authority\",\"zh\":\"签署权\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "right_sign_no",
+            "Trans": "{\"en\":\"No signing authority\",\"zh\":\"无签署权\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role",
+            "Trans": "{\"en\":\"Role\",\"zh\":\"生态角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_added_before",
+            "Trans": "{\"en\":\"This role has already been added before\",\"zh\":\"该角色以前已经添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_already_permission",
+            "Trans": "{\"en\":\"This role is already have permission\",\"zh\":\"该角色已有权限\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_app_param_not_found",
+            "Trans": "{\"en\":\"The role for the application parameter %q is not found\",\"zh\":\"应用程序参数%q的角色未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_change_no_permission",
+            "Trans": "{\"en\":\"You don't have permissions to change the %v role\",\"zh\":\"您无权更改%v角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_created_deleted",
+            "Trans": "{\"en\":\"Created / Deleted\",\"zh\":\"创建/删除\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_deleted_request_impossible",
+            "Trans": "{\"en\":\"This role has been deleted. New requests for the membership is impossible\",\"zh\":\"该角色已被删除，不可接受新请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_id_no_members",
+            "Trans": "{\"en\":\"The role (id: %v) does not contain any members\",\"zh\":\"角色(id: %v)不包含任何成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_members_added_before",
+            "Trans": "{\"en\":\"Members of this role has already been added before\",\"zh\":\"该角色成员以前已添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_none",
+            "Trans": "{\"en\":\"none\",\"zh\":\"尚无\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_not_elective_or_removed",
+            "Trans": "{\"en\":\"The chosen role is not elective or has been removed\",\"zh\":\"所选择的角色不可选或已被移除\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_not_found",
+            "Trans": "{\"en\":\"The role is not found\",\"zh\":\"该角色未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_not_found_in_registry",
+            "Trans": "{\"en\":\"This role is not found in the roles registry\",\"zh\":\"在角色注册表中未找到该角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_not_involved",
+            "Trans": "{\"en\":\"Your role is not involved in this vote\",\"zh\":\"您的角色与本次投票无关\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_not_selected",
+            "Trans": "{\"en\":\"You should log in as a role member to view role notifications\",\"zh\":\"您应使用角色成员登录，以查看角色通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_not_set_application_parameter",
+            "Trans": "{\"en\":\"The role is not set in the application parameter %v\",\"zh\":\"该角色未在应用程序参数%v中设置\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_not_set_eco_parameter",
+            "Trans": "{\"en\":\"The role is not set in the ecosystem parameter %v\",\"zh\":\"该角色未在生态系统参数%v中设置\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_notifics",
+            "Trans": "{\"en\":\"Role notifications\",\"zh\":\"角色通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_participant_not_found",
+            "Trans": "{\"en\":\"The role participant is not found\",\"zh\":\"角色参与者未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_polls",
+            "Trans": "{\"en\":\"Roles polls\",\"zh\":\"角色投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_sale_admin",
+            "Trans": "{\"en\":\"Tokens sale admin\",\"zh\":\"通证销售管理员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_sale_manager",
+            "Trans": "{\"en\":\"Tokens sale manager\",\"zh\":\"通证销售管理\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_sale_seller",
+            "Trans": "{\"en\":\"Tokens seller\",\"zh\":\"通证卖家\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_snapswap",
+            "Trans": "{\"en\":\"SnapSwap employee\",\"zh\":\"SnapSwap员工\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_type",
+            "Trans": "{\"en\":\"Role\",\"zh\":\"角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "role_you_added_already",
+            "Trans": "{\"en\":\"You have been added to the role already\",\"zh\":\"你已被添加到该角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "roles",
+            "Trans": "{\"en\":\"Roles\",\"zh\":\"角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "roles_access",
+            "Trans": "{\"en\":\"Roles Access\",\"zh\":\"角色访问\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "roles_errands",
+            "Trans": "{\"en\":\"Roles errands\",\"zh\":\"角色任务\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "roles_list1",
+            "Trans": "{\"en\":\"Role (all participants of the same role vote)\",\"zh\":\"角色(相同角色的所有参与者投票)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "roles_list2",
+            "Trans": "{\"en\":\"Roles list (all participants vote)\",\"zh\":\"角色列表(所有参与者投票)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "roles_list3",
+            "Trans": "{\"en\":\"Role list (one participant from each role votes)\",\"zh\":\"角色列表(每个角色投票一名参与者)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "roles_list_desc",
+            "Trans": "{\"en\":\"This page is used to manage roles\",\"zh\":\"此页面用于管理角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "roles_participants_not_found",
+            "Trans": "{\"en\":\"Roles participants not found\",\"zh\":\"角色参与者未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "rollback",
+            "Trans": "{\"en\":\"Rollback\",\"zh\":\"回滚\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "row_id",
+            "Trans": "{\"en\":\"Row ID\",\"zh\":\"行ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "row_id_desc",
+            "Trans": "{\"en\":\"The row ID for the value (Example: 14)\",\"zh\":\"值的行ID(示例:14)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sales",
+            "Trans": "{\"en\":\"Sales\",\"zh\":\"销售\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "same_voting_created",
+            "Trans": "{\"en\":\"Same voting has already created\",\"zh\":\"相同的投票已创建\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "save",
+            "Trans": "{\"en\":\"Save\",\"zh\":\"保存\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "search",
+            "Trans": "{\"en\":\"Search\",\"zh\":\"搜索\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "section_access_rights",
+            "Trans": "{\"en\":\"Access rights\",\"zh\":\"访问权限\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "section_add",
+            "Trans": "{\"en\":\"New section\",\"zh\":\"新标签\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "section_already_bottom",
+            "Trans": "{\"en\":\"The section is already at the bottom\",\"zh\":\"该部分已在底部\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "section_already_top",
+            "Trans": "{\"en\":\"The section is already at the top\",\"zh\":\"该部分已在顶部\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "section_edit",
+            "Trans": "{\"en\":\"Section edit\",\"zh\":\"标签编辑\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "section_main_page",
+            "Trans": "{\"en\":\"Main page\",\"zh\":\"主页\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "section_page",
+            "Trans": "{\"en\":\"Section page\",\"zh\":\"标签页面\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sections",
+            "Trans": "{\"en\":\"Sections\",\"zh\":\"标签\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sections_manage_page",
+            "Trans": "{\"en\":\"This page is used to manage sections\",\"zh\":\"此页面用于管理标签\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "select",
+            "Trans": "{\"en\":\"Select\",\"zh\":\"选择\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "select_application",
+            "Trans": "{\"en\":\"select application\",\"zh\":\"选择应用程序\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "select_default_templates_manually",
+            "Trans": "{\"en\":\"Select default voting templates manually\",\"zh\":\"手动选择默认投票模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "select_member",
+            "Trans": "{\"en\":\"Select a member to add\",\"zh\":\"选择要添加的成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "select_role",
+            "Trans": "{\"en\":\"Select a role to add all members of this role\",\"zh\":\"选择一个角色来添加该角色的所有成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "select_role_if_include",
+            "Trans": "{\"en\":\"Select a role if you want to include a member in the role\",\"zh\":\"如果希望在角色中包含成员，请选择一个角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "seller_reject_comment",
+            "Trans": "{\"en\":\"Seller comment\",\"zh\":\"卖方评论\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "seller_rejected_at",
+            "Trans": "{\"en\":\"Rejected by seller at\",\"zh\":\"卖方拒绝于\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "seller_transferred_at",
+            "Trans": "{\"en\":\"Seller transferred at\",\"zh\":\"卖方转账于\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "send",
+            "Trans": "{\"en\":\"Send\",\"zh\":\"发送\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "send_request",
+            "Trans": "{\"en\":\"Send request\",\"zh\":\"发送请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "send_to_check",
+            "Trans": "{\"en\":\"Send for checking\",\"zh\":\"发送检查\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "send_tokens_by_poa",
+            "Trans": "{\"en\":\"Send tokens by Power of attorney\",\"zh\":\"通过委托书发送通证代币\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "send_tokens_my_balance",
+            "Trans": "{\"en\":\"Send tokens from my balance\",\"zh\":\"从我的账户里发送GAC\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sender",
+            "Trans": "{\"en\":\"Sender\",\"zh\":\"发送方\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sender_account",
+            "Trans": "{\"en\":\"Sender account\",\"zh\":\"发送方账户\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sender_amount_not_enough",
+            "Trans": "{\"en\":\"The amount of the sender (%v) tokens is not enough\",\"zh\":\"发送方(%v)通证数量不足\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sender_blocked",
+            "Trans": "{\"en\":\"The sender is blocked\",\"zh\":\"发送方被阻止\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sender_deleted",
+            "Trans": "{\"en\":\"The sender is deleted\",\"zh\":\"删除发送方\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sender_invalid",
+            "Trans": "{\"en\":\"The sender is not valid\",\"zh\":\"发送方无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sender_role_not_found",
+            "Trans": "{\"en\":\"The sender role is not found\",\"zh\":\"发件人角色未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sender_x_invalid",
+            "Trans": "{\"en\":\"The sender %v is not valid\",\"zh\":\"发送方%v无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sent",
+            "Trans": "{\"en\":\"Sent\",\"zh\":\"发送\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "show",
+            "Trans": "{\"en\":\"Show\",\"zh\":\"显示\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "show_all",
+            "Trans": "{\"en\":\"Show all\",\"zh\":\"显示所有\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "signed_at",
+            "Trans": "{\"en\":\"Signed at\",\"zh\":\"签署于\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "single",
+            "Trans": "{\"en\":\"Single\",\"zh\":\"单个\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "specified_role_not_found",
+            "Trans": "{\"en\":\"Specified role is not found\",\"zh\":\"指定角色未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "start",
+            "Trans": "{\"en\":\"Start\",\"zh\":\"开始\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "start_block",
+            "Trans": "{\"en\":\"Start block\",\"zh\":\"开始区块\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "start_doc",
+            "Trans": "{\"en\":\"Documentation\",\"zh\":\"文档\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "start_poll",
+            "Trans": "{\"en\":\"Start poll template\",\"zh\":\"启动投票/民调模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "start_process",
+            "Trans": "{\"en\":\"Start process\",\"zh\":\"启动处理\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "start_process_errand",
+            "Trans": "{\"en\":\"It is necessary to begin the process of executing the errand\",\"zh\":\"开始执行处理任务\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "start_voting_ves",
+            "Trans": "{\"en\":\"Start voting for the valued ecosystem\",\"zh\":\"开始对生态系统参数投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "started",
+            "Trans": "{\"en\":\"Started\",\"zh\":\"已开始\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "started_by",
+            "Trans": "{\"en\":\"Started by\",\"zh\":\"开始于\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "started_voting_not_found",
+            "Trans": "{\"en\":\"Started voting is not found\",\"zh\":\"已开始投票未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "starting_date_invalid",
+            "Trans": "{\"en\":\"The starting date is not valid\",\"zh\":\"起始日期无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "status",
+            "Trans": "{\"en\":\"Status\",\"zh\":\"状态\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "status_must_0_2",
+            "Trans": "{\"en\":\"Status must be in the range 0..2\",\"zh\":\"状态必须在0——2范围内\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "style_manage",
+            "Trans": "{\"en\":\"Manage stylesheet\",\"zh\":\"管理样式表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "subject_voting",
+            "Trans": "{\"en\":\"Subject of the voting\",\"zh\":\"投票/民调主题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "subject_voting_edit",
+            "Trans": "{\"en\":\"Edit the subject of the voting\",\"zh\":\"编辑投票/民调主题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "success",
+            "Trans": "{\"en\":\"Success\",\"zh\":\"成功\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sure_want_delete",
+            "Trans": "{\"en\":\"Do you really want to delete?\",\"zh\":\"确认删除?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sure_want_delete_member",
+            "Trans": "{\"en\":\"Do you really want to delete this member?\",\"zh\":\"确认删除该成员?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "suspect_address_invalid",
+            "Trans": "{\"en\":\"The suspect address is not valid\",\"zh\":\"可疑地址无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sys_emission",
+            "Trans": "{\"en\":\"sys-emission\",\"zh\":\"系统发行\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sys_trash",
+            "Trans": "{\"en\":\"sys-trash\",\"zh\":\"系统垃圾箱\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sysparams_candidate_validators_form",
+            "Trans": "{\"en\":\"Candidate for the validators request form\",\"zh\":\"验证器请求表单候选项\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sysparams_candidates",
+            "Trans": "{\"en\":\"Candidates for the validators\",\"zh\":\"验证器候选项\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sysparams_candidates_list_desc",
+            "Trans": "{\"en\":\"This page is used to create and manage candidate for the validators requests\",\"zh\":\"该页面用于创建和管理候选人的验证请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sysparams_list",
+            "Trans": "{\"en\":\"System parameters list\",\"zh\":\"系统参数列表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sysparams_section",
+            "Trans": "{\"en\":\"This page is used to configure stored reusable parameters\",\"zh\":\"该页面用于配置存储的可重用参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "sysparams_validator_resign",
+            "Trans": "{\"en\":\"Validator's resign\",\"zh\":\"验证人弃权\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "system_param",
+            "Trans": "{\"en\":\"System parameter\",\"zh\":\"系统参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "system_parameter_not_found",
+            "Trans": "{\"en\":\"The system parameter is not found\",\"zh\":\"系统参数未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "system_params",
+            "Trans": "{\"en\":\"System parameters\",\"zh\":\"系统参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "system_role",
+            "Trans": "{\"en\":\"System\",\"zh\":\"系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "system_role_can_not_create",
+            "Trans": "{\"en\":\"The system role cannot be created\",\"zh\":\"无法创建系统角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "system_voting_can_not_add_participants",
+            "Trans": "{\"en\":\"This voting is the System. Adding new participants is not allowed\",\"zh\":\"此为系统投票，不允许添加新的参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "system_voting_can_not_edit",
+            "Trans": "{\"en\":\"This voting is the System. Settings changing is not allowed\",\"zh\":\"此为系统投票，不允许更改设置\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "system_voting_can_not_start_from_x",
+            "Trans": "{\"en\":\"Votings with type 'System' is not allowed to start from %v\",\"zh\":\"“系统”类型的投票不允许从%v开始\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "table",
+            "Trans": "{\"en\":\"Table\",\"zh\":\"数据表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "table_create",
+            "Trans": "{\"en\":\"Creating the table\",\"zh\":\"创建表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "table_to_written",
+            "Trans": "{\"en\":\"Table name\",\"zh\":\"表名\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "table_to_written_desc",
+            "Trans": "{\"en\":\"The table for the value (Example: accounts)\",\"zh\":\"值表(例如:accounts)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tables",
+            "Trans": "{\"en\":\"Tables\",\"zh\":\"数据表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tcp_address",
+            "Trans": "{\"en\":\"TCP address\",\"zh\":\"TCP地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template",
+            "Trans": "{\"en\":\"Template\",\"zh\":\"模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_add",
+            "Trans": "{\"en\":\"Add template\",\"zh\":\"添加模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_app_exists",
+            "Trans": "{\"en\":\"The application %s is already exist\",\"zh\":\"应用程序%s已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_appparam_exists",
+            "Trans": "{\"en\":\"The application parameter %s is already exist\",\"zh\":\"应用程序参数%s已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_block_exists",
+            "Trans": "{\"en\":\"The block '%s' is already exist\",\"zh\":\"区块“%s”已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_contract_not_exist",
+            "Trans": "{\"en\":\"The contract %d is not exist\",\"zh\":\"合约%d不存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_delayed_contract_error",
+            "Trans": "{\"en\":\"The delayed contract %v should run on block %v, current block %v\",\"zh\":\"延迟合约%v将运行于区块%v，当前区块为%v\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_delayed_contract_limited",
+            "Trans": "{\"en\":\"The delayed contract %d is limited by the number of launches\",\"zh\":\"延迟合约%d受到启动次数的限制\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_delayed_contract_not_exist",
+            "Trans": "{\"en\":\"The delayed contract %d is not exist\",\"zh\":\"延迟合约%d不存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_eco_isnot_system",
+            "Trans": "{\"en\":\"This ecosystem %d is not system\",\"zh\":\"该生态系统不是平台基础生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_eco_not_exist",
+            "Trans": "{\"en\":\"The ecosystem %d is not exist\",\"zh\":\"生态系统%d不存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_edit",
+            "Trans": "{\"en\":\"Edit template\",\"zh\":\"编辑模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_id",
+            "Trans": "{\"en\":\"Template ID\",\"zh\":\"模板ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_id_not_found",
+            "Trans": "{\"en\":\"The template ID is not found\",\"zh\":\"模板ID未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_id_set",
+            "Trans": "{\"en\":\"Set the template ID\",\"zh\":\"设置模板ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_incorrect",
+            "Trans": "{\"en\":\"Incorrect template\",\"zh\":\"模板不正确\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_langres_exists",
+            "Trans": "{\"en\":\"The language resource %s is already exist\",\"zh\":\"多语言资源%s已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_menu_exists",
+            "Trans": "{\"en\":\"The menu %v is already exist\",\"zh\":\"菜单%v已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_only_role_allowed",
+            "Trans": "{\"en\":\"This action allowed only for the role %v\",\"zh\":\"该操作只允许角色%v执行\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_page_exists",
+            "Trans": "{\"en\":\"The page %s is already exist\",\"zh\":\"页面%s已经存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_parameter_exists",
+            "Trans": "{\"en\":\"The parameter %s is already exist\",\"zh\":\"参数%s已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_section_not_exist",
+            "Trans": "{\"en\":\"The section with ID '%v' is not exist\",\"zh\":\"ID '%v'的标签不存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_set",
+            "Trans": "{\"en\":\"Set the template\",\"zh\":\"设置模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_unknown_contract",
+            "Trans": "{\"en\":\"Unknown contract %v\",\"zh\":\"未知合约% v\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_user_exists",
+            "Trans": "{\"en\":\"The user '%v' is already exist\",\"zh\":\"用户'%v'已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_user_not_found",
+            "Trans": "{\"en\":\"The user '%v' is not found\",\"zh\":\"用户'%v'未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_view",
+            "Trans": "{\"en\":\"View template\",\"zh\":\"查看模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "template_wrong_wallet",
+            "Trans": "{\"en\":\"wrong wallet %s\",\"zh\":\"错误的钱包% s\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "templates_list",
+            "Trans": "{\"en\":\"Templates list\",\"zh\":\"模板列表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "test_page",
+            "Trans": "{\"en\":\"Test page\",\"zh\":\"测试页面\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "text_document",
+            "Trans": "{\"en\":\"Text of the document\",\"zh\":\"文档文本\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "text_to_search",
+            "Trans": "{\"en\":\"Type text for search...\",\"zh\":\"输入文本搜索…\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "timestam",
+            "Trans": "{\"en\":\"Timestamp\",\"zh\":\"时间戳\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "title",
+            "Trans": "{\"en\":\"Title\",\"zh\":\"标题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokenrefund_result0",
+            "Trans": "{\"en\":\"Discussion and voting\",\"zh\":\"讨论和投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokenrefund_result1",
+            "Trans": "{\"en\":\"Refund cancelled\",\"zh\":\"退款已取消\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokenrefund_result2",
+            "Trans": "{\"en\":\"Tokens returned\",\"zh\":\"通证已返回\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokenrefund_status0",
+            "Trans": "{\"en\":\"Accounts blocked\",\"zh\":\"帐户被屏蔽\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens",
+            "Trans": "{\"en\":\"Tokens\",\"zh\":\"通证/代币\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_refund",
+            "Trans": "{\"en\":\"Tokens refund\",\"zh\":\"通证退款\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_refund_attacker",
+            "Trans": "{\"en\":\"Attacker\",\"zh\":\"攻击者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_refund_not_found",
+            "Trans": "{\"en\":\"The tokens refund is not found\",\"zh\":\"通证退款未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_refund_victim",
+            "Trans": "{\"en\":\"Victim\",\"zh\":\"受害者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_refunds",
+            "Trans": "{\"en\":\"Tokens refunds\",\"zh\":\"通证退款\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_refunds_list",
+            "Trans": "{\"en\":\"Tokens refunds list\",\"zh\":\"通证退款名单\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_refunds_list_allowed_role",
+            "Trans": "{\"en\":\"Creating the tokens refund request is allowed only for the role members of \",\"zh\":\"创建通证退款请求仅限于角色成员\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_refunds_list_desc",
+            "Trans": "{\"en\":\"This page is used to create and manage tokens refunds requests\",\"zh\":\"此页面用于创建和管理通证退款请求\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_send",
+            "Trans": "{\"en\":\"Send tokens\",\"zh\":\"发送通证\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_transfer",
+            "Trans": "{\"en\":\"Tokens transfer\",\"zh\":\"通证转账\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tokens_transfer_cannot_be_made",
+            "Trans": "{\"en\":\"The tokens transfer cannot be made from this contract\",\"zh\":\"本合约不能转让通证\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "total",
+            "Trans": "{\"en\":\"Total\",\"zh\":\"总计\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tranche",
+            "Trans": "{\"en\":\"Tranche\",\"zh\":\"批次\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "transaction_hash",
+            "Trans": "{\"en\":\"Transaction hash\",\"zh\":\"交易/事务Hash\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "transactions_filter_lower_desc",
+            "Trans": "{\"en\":\"Lower limit of the amount range\",\"zh\":\"金额范围下限\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "transactions_filter_upper_desc",
+            "Trans": "{\"en\":\"Upper limit of the amount range\",\"zh\":\"金额范围上限\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "transactions_filter_wallet_desc",
+            "Trans": "{\"en\":\"Use this field to show a history of transactions with specified wallet only\",\"zh\":\"使用此字段仅显示指定钱包的交易历史\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "transactions_history",
+            "Trans": "{\"en\":\"Transactions history\",\"zh\":\"交易/事务历史\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "transactions_history_empty",
+            "Trans": "{\"en\":\"Transactions history is empty\",\"zh\":\"交易/事务历史记录为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_add_public_key",
+            "Trans": "{\"en\":\"Add a public key from SnapSwap\",\"zh\":\"从SnapSwap添加公钥\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_add_transfer",
+            "Trans": "{\"en\":\"Add a transfer of funds\",\"zh\":\"增加资金转账\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_buyer_contract",
+            "Trans": "{\"en\":\"The contract of the investor\",\"zh\":\"投资人合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_free_wallet_add",
+            "Trans": "{\"en\":\"Add a free wallet\",\"zh\":\"添加免费钱包\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_free_wallet_not_found",
+            "Trans": "{\"en\":\"Free wallet not found\",\"zh\":\"免费钱包未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_free_wallets",
+            "Trans": "{\"en\":\"Free wallets\",\"zh\":\"免费钱包\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_free_wallets_emptied",
+            "Trans": "{\"en\":\"Free wallet emptied\",\"zh\":\"免费钱包已清空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_free_wallets_need",
+            "Trans": "{\"en\":\"Need to add free wallets\",\"zh\":\"需要添加免费钱包\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_hello_user_description",
+            "Trans": "{\"en\":\"Welcome to the Gachain\",\"zh\":\"欢迎来到政务链GAChain\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_investor_key",
+            "Trans": "{\"en\":\"Investor key. Add the public key and transfer GAC tokens\",\"zh\":\"投资人Key键，添加公钥并转账GAC通证\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_public_key_input_des",
+            "Trans": "{\"en\":\"Enter the public key provided by SnapSwap user in the field below and press the Send button\",\"zh\":\"在下面的字段中输入SnapSwap用户提供的公钥，并按下Send按钮\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_read_contract",
+            "Trans": "{\"en\":\"Please, read your contract\",\"zh\":\"请仔细阅读您的合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_sales",
+            "Trans": "{\"en\":\"Tokens sale\",\"zh\":\"通证销售\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_settings",
+            "Trans": "{\"en\":\"Tokens sale settings\",\"zh\":\"通证销售设置\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_settings_description",
+            "Trans": "{\"en\":\"Ecosystem's and Trade GAC application roles compliance\",\"zh\":\"生态系统和交易GAC应用程序的角色遵从性\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_transfer_manager",
+            "Trans": "{\"en\":\"Tokens sale audit\",\"zh\":\"通证销售审计\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_transfer_seller",
+            "Trans": "{\"en\":\"Selling GAC: the transfer of funds\",\"zh\":\"销售GAC：资金转账\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_user_key",
+            "Trans": "{\"en\":\"User key. Add the public key only\",\"zh\":\"用户Key，只添加公钥\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_wallet_btc",
+            "Trans": "{\"en\":\"BTC wallet\",\"zh\":\"比特币钱包\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_wallet_eth",
+            "Trans": "{\"en\":\"ETH wallet\",\"zh\":\"以太坊钱包\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "ts_wallets",
+            "Trans": "{\"en\":\"Investor wallets\",\"zh\":\"投资人钱包\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "tx",
+            "Trans": "{\"en\":\"Transactions\",\"zh\":\"交易\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "type",
+            "Trans": "{\"en\":\"Type\",\"zh\":\"类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "type_empty",
+            "Trans": "{\"en\":\"The type is empty\",\"zh\":\"类型为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "type_voting_custom",
+            "Trans": "{\"en\":\"Custom\",\"zh\":\"自定义\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "type_voting_system",
+            "Trans": "{\"en\":\"System\",\"zh\":\"系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "unbind",
+            "Trans": "{\"en\":\"Unbind\",\"zh\":\"解除绑定\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "unblock_key",
+            "Trans": "{\"en\":\"Unblock\",\"zh\":\"解除锁定\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "understood",
+            "Trans": "{\"en\":\"Understood\",\"zh\":\"我明白\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "unread",
+            "Trans": "{\"en\":\"unread\",\"zh\":\"未读\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "update",
+            "Trans": "{\"en\":\"Update\",\"zh\":\"更新\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "update_condition_empty",
+            "Trans": "{\"en\":\"The update condition is empty\",\"zh\":\"更新条件为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "update_metrics",
+            "Trans": "{\"en\":\"Update metrics\",\"zh\":\"更新标准\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "update_statuses",
+            "Trans": "{\"en\":\"Update statuses\",\"zh\":\"更新状态\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "update_votings_statuses",
+            "Trans": "{\"en\":\"Update votings statuses\",\"zh\":\"更新投票/民调状态\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "updating",
+            "Trans": "{\"en\":\"Updating\",\"zh\":\"更新中\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "use",
+            "Trans": "{\"en\":\"Use\",\"zh\":\"使用\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "use_default_voting_templates",
+            "Trans": "{\"en\":\"Use as default voting templates\",\"zh\":\"使用作为默认投票模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "user_info",
+            "Trans": "{\"en\":\"Member information\",\"zh\":\"成员信息\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "username",
+            "Trans": "{\"en\":\"Username\",\"zh\":\"用户名\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vacancies",
+            "Trans": "{\"en\":\"Vacancies\",\"zh\":\"职位空缺\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vacancies_number_less_one",
+            "Trans": "{\"en\":\"Vacancies number cannot be less than 1\",\"zh\":\"职位空缺不能少于1个\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vacancies_number_wrong",
+            "Trans": "{\"en\":\"The vacancies number is wrong\",\"zh\":\"空缺数量出错\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "valid",
+            "Trans": "{\"en\":\"Valid\",\"zh\":\"有效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "validate_member_name",
+            "Trans": "{\"en\":\"must be between 5 and 20 characters\",\"zh\":\"必须在5到20个字符之间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "validate_name",
+            "Trans": "{\"en\":\"must be between 3 and 255 characters\",\"zh\":\"必须在3到255个字符之间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "validate_role_name",
+            "Trans": "{\"en\":\"must be between 3 and 30 characters\",\"zh\":\"必须在3到30个字符之间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "validate_wallet_btc",
+            "Trans": "{\"en\":\"must be between 27 and 34 characters\",\"zh\":\"必须在27到34个字符之间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "validate_wallet_eth",
+            "Trans": "{\"en\":\"must be between 40 and 44 characters\",\"zh\":\"必须在40到44个字符之间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "validator_removing",
+            "Trans": "{\"en\":\"Validator's removing\",\"zh\":\"移除验证人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "validator_removing_desc",
+            "Trans": "{\"en\":\"You are a Validator. You can remove the entry about your node and leave the Validator role at any time\",\"zh\":\"您是验证人，您可以删除关于节点的条目，并在任何时候离开验证人的角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "validator_role_not_found",
+            "Trans": "{\"en\":\"The Validator role is not found\",\"zh\":\"验证人角色未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "value",
+            "Trans": "{\"en\":\"Value\",\"zh\":\"值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "value_between_0_and_1",
+            "Trans": "{\"en\":\"Value must be between 0 and 1\",\"zh\":\"值必须在0和1之间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "value_empty",
+            "Trans": "{\"en\":\"The value is empty\",\"zh\":\"值为空\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "value_incorrect",
+            "Trans": "{\"en\":\"The value is incorrect\",\"zh\":\"值不正确\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "value_must_greater_zero",
+            "Trans": "{\"en\":\"Value must be greater than zero\",\"zh\":\"值必须大于零\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "value_not_received",
+            "Trans": "{\"en\":\"The value was not received\",\"zh\":\"没有收到该值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "value_number",
+            "Trans": "{\"en\":\"Value number\",\"zh\":\"数字值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "value_string",
+            "Trans": "{\"en\":\"Value string\",\"zh\":\"字符串值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "valued",
+            "Trans": "{\"en\":\"Valued\",\"zh\":\"值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vde_form_address",
+            "Trans": "{\"en\":\"VDE form address\",\"zh\":\"VDE表格地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vde_form_desc",
+            "Trans": "{\"en\":\"Address of the VDE form for applying for the membership (for someones without GAC)\",\"zh\":\"申请会籍的VDE表格地址（适用于没有GAC的人士）\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vde_page_address",
+            "Trans": "{\"en\":\"VDE page address\",\"zh\":\"VDE页面地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "victim_address_invalid",
+            "Trans": "{\"en\":\"The victim address is not valid\",\"zh\":\"受害者地址无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "victim_key_invalid",
+            "Trans": "{\"en\":\"The victim key is not valid\",\"zh\":\"受害者密钥无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "view",
+            "Trans": "{\"en\":\"View\",\"zh\":\"查看\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "view_all",
+            "Trans": "{\"en\":\"View all\",\"zh\":\"查看所有\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "visitor",
+            "Trans": "{\"en\":\"Visitor\",\"zh\":\"游客\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "visitor_rights",
+            "Trans": "{\"en\":\"Visitor (with SR)\",\"zh\":\"访客(SR)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "volume_range_must_be",
+            "Trans": "{\"en\":\"Volume [%v] must be in the range of 50% to 100%\",\"zh\":\"通过率[%v]必须在50%到100%之间\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "volume_range_wrong",
+            "Trans": "{\"en\":\"The volume range is wrong\",\"zh\":\"通过率范围出错\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vote",
+            "Trans": "{\"en\":\"Vote\",\"zh\":\"投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vote_count_type",
+            "Trans": "{\"en\":\"Vote count type\",\"zh\":\"投票数类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vote_for_candidate",
+            "Trans": "{\"en\":\"voted for the candidate\",\"zh\":\"投票该候选人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "vote_now",
+            "Trans": "{\"en\":\"Vote now\",\"zh\":\"现在投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voted",
+            "Trans": "{\"en\":\"Voted\",\"zh\":\"已投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voters",
+            "Trans": "{\"en\":\"Voters\",\"zh\":\"投票人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voters_number_less_one",
+            "Trans": "{\"en\":\"Number of voters cannot be less than 1\",\"zh\":\"投票人数不能少于1人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voters_role",
+            "Trans": "{\"en\":\"Voters role\",\"zh\":\"投票人角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voters_role_id_not_found",
+            "Trans": "{\"en\":\"The voters role (id: %v) is not found\",\"zh\":\"找不到投票人角色(id: %v)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voters_role_not_found",
+            "Trans": "{\"en\":\"The voters role is not found\",\"zh\":\"没有找到投票人的角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting",
+            "Trans": "{\"en\":\"Voting\",\"zh\":\"投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_all_keys_added",
+            "Trans": "{\"en\":\"All members were added\",\"zh\":\"所有成员都已添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_all_members",
+            "Trans": "{\"en\":\"All members were added automatically\",\"zh\":\"所有成员都已自动添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_contract_accept",
+            "Trans": "{\"en\":\"Run contract after accepting the decision\",\"zh\":\"决议接受后执行合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_contract_reject",
+            "Trans": "{\"en\":\"Run contract after rejecting the decision\",\"zh\":\"决议拒绝后，继续执行合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_creation_error",
+            "Trans": "{\"en\":\"Voting creation error\",\"zh\":\"投票/民调创建错误\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_creation_error_x_unspecified",
+            "Trans": "{\"en\":\"Voting creation error: %v unspecified\",\"zh\":\"投票/民调创建错误：%v未指定\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_decisions_candidate_manual",
+            "Trans": "{\"en\":\"Role candidates with manual registration of participants\",\"zh\":\"角色候选人与手动注册的参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_decisions_candidate_requests",
+            "Trans": "{\"en\":\"Role candidates with registration of participants by request\",\"zh\":\"角色候选人，根据要求注册参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_decisions_db",
+            "Trans": "{\"en\":\"Formal decision\",\"zh\":\"正式决定\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_decisions_document",
+            "Trans": "{\"en\":\"Document approval\",\"zh\":\"文件批准\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_delete_impossible",
+            "Trans": "{\"en\":\"The deleting of this voting is impossible\",\"zh\":\"该决议不可删除\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_error_decision",
+            "Trans": "{\"en\":\"Error decision type of the vote\",\"zh\":\"投票决议类型错误\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_error_success",
+            "Trans": "{\"en\":\"Error successful completion of voting\",\"zh\":\"投票成功完成错误\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_expired_can_not_add_participants",
+            "Trans": "{\"en\":\"The voting has expired. You cannot add new participants now\",\"zh\":\"投票已结束，您现在不能添加新的参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_expired_can_not_notify",
+            "Trans": "{\"en\":\"The voting has expired. Notifications cannot be sent\",\"zh\":\"投票已结束，无法发送通知\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_expired_can_not_vote",
+            "Trans": "{\"en\":\"The voting has expired. Voting is not possible now\",\"zh\":\"投票已结束，现在不可投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_finished_can_not_add_candidates",
+            "Trans": "{\"en\":\"The voting has already finished. You cannot add candidates now\",\"zh\":\"投票已结束了，您现在不能添加候选人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_graph_progress",
+            "Trans": "{\"en\":\"Graph of the percentages of the votes needed to make a decision\",\"zh\":\"作出决定所需选票百分比的图表\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_graph_voted",
+            "Trans": "{\"en\":\"Graph of the proportion of the voters from the total number of participants\",\"zh\":\"投票人占总人数的比例曲线图\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_init_contract",
+            "Trans": "{\"en\":\"Initializing contract\",\"zh\":\"初始化合约\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_init_contract_desc",
+            "Trans": "{\"en\":\"Is executed before the beginning of the voting\",\"zh\":\"是否在投票开始前执行\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_list",
+            "Trans": "{\"en\":\"List of the votings\",\"zh\":\"投票名单\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_not_creator",
+            "Trans": "{\"en\":\"You are not the creator of this voting\",\"zh\":\"您不是该投票的创建者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_not_expired",
+            "Trans": "{\"en\":\"The voting has not expired yet. Try again later, please\",\"zh\":\"投票尚未结束，请稍后再试\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_not_found",
+            "Trans": "{\"en\":\"The voting is not found\",\"zh\":\"投票结果未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_not_participant",
+            "Trans": "{\"en\":\"You are not a participant of this voting\",\"zh\":\"您不是该投票的参与者\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_not_started",
+            "Trans": "{\"en\":\"The voting has not started yet. Try again later, please\",\"zh\":\"投票还未开始，请稍后再试\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_params",
+            "Trans": "{\"en\":\"Voting params\",\"zh\":\"投票/民调参数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_participants_added_before",
+            "Trans": "{\"en\":\"Voting participants has already been added before\",\"zh\":\"参与者已被添加\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_participants_manual",
+            "Trans": "{\"en\":\"Choose manually\",\"zh\":\"选择手动\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_participants_role",
+            "Trans": "{\"en\":\"By role\",\"zh\":\"按角色\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_quorum",
+            "Trans": "{\"en\":\"Quorum\",\"zh\":\"法定人数\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_quorum_desc",
+            "Trans": "{\"en\":\"Percentage value of the votes for a decision (from 5 to 100)\",\"zh\":\"满足本次投票要求的参与人数百分比（5〜100）\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_role_incorrect",
+            "Trans": "{\"en\":\"Incorrect role for voting\",\"zh\":\"投票角色不正确\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_start",
+            "Trans": "{\"en\":\"Voting start\",\"zh\":\"投票开始\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_start_button",
+            "Trans": "{\"en\":\"Start the voting\",\"zh\":\"开始投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_started_can_not_add_candidates",
+            "Trans": "{\"en\":\"The voting has already started. You cannot add candidates now\",\"zh\":\"投票已开始，您现在不能添加候选人\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_started_can_not_edit",
+            "Trans": "{\"en\":\"The voting has already started. You cannot edit the document now\",\"zh\":\"投票已开始，您现在不能编辑文档\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_subject",
+            "Trans": "{\"en\":\"Voting subject\",\"zh\":\"投票主题\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_subject_not_found",
+            "Trans": "{\"en\":\"The subject of the voting is not found\",\"zh\":\"投票主题未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_template_create",
+            "Trans": "{\"en\":\"New voting template\",\"zh\":\"创建新投票/民调模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_template_id",
+            "Trans": "{\"en\":\"Voting template ID\",\"zh\":\"投票模板ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_template_id_not_found",
+            "Trans": "{\"en\":\"The voting template ID is not found in the ecosystem parameters\",\"zh\":\"在生态系统参数中找不到投票模板ID\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_template_not_found",
+            "Trans": "{\"en\":\"The voting template is not found\",\"zh\":\"投票模板未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_templates",
+            "Trans": "{\"en\":\"Voting templates\",\"zh\":\"投票/民调模板\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_templates_not_found",
+            "Trans": "{\"en\":\"Voting templates not found\",\"zh\":\"投票模板未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_type",
+            "Trans": "{\"en\":\"Voting type\",\"zh\":\"投票类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_type_invalid",
+            "Trans": "{\"en\":\"The voting type is not valid\",\"zh\":\"投票类型无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_type_not_suitable",
+            "Trans": "{\"en\":\"The selected type of voting is not suitable for this decision\",\"zh\":\"选定的投票类型不适合此决议\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_view",
+            "Trans": "{\"en\":\"Voting view\",\"zh\":\"投票视图\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_volume",
+            "Trans": "{\"en\":\"Volume\",\"zh\":\"投票通过率\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_volume_desc",
+            "Trans": "{\"en\":\"Percentage value of the voters to fulfill requirements of this voting (from 50% to 100%)\",\"zh\":\"符合投票要求的票數百分比（50%〜100%）\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "voting_volume_number_desc",
+            "Trans": "{\"en\":\"Number of the voters to fulfill requirements of this voting (from 1)\",\"zh\":\"符合本次投票要求的投票者人数(由1人起)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "votings",
+            "Trans": "{\"en\":\"Votings\",\"zh\":\"投票/民调\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "votings_list_desc",
+            "Trans": "{\"en\":\"This page is used to manage votings\",\"zh\":\"此页面用于管理投票\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "votings_not_found",
+            "Trans": "{\"en\":\"Votings not found\",\"zh\":\"投票未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "waiting",
+            "Trans": "{\"en\":\"Waiting\",\"zh\":\"等待\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "waiting_manager_approved",
+            "Trans": "{\"en\":\"Awaiting approval by the Manager\",\"zh\":\"等待管理员批准\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "waiting_seller_transfer",
+            "Trans": "{\"en\":\"Awaiting the transfer of funds by the Seller\",\"zh\":\"等待卖方转账\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "wallet",
+            "Trans": "{\"en\":\"Wallet\",\"zh\":\"钱包地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "wallet_address",
+            "Trans": "{\"en\":\"Wallet Address\",\"zh\":\"钱包地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "wallet_btc_exists",
+            "Trans": "{\"en\":\"%s BTC wallet already exists\",\"zh\":\"%s 比特币钱包已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "wallet_eth_exists",
+            "Trans": "{\"en\":\"%s ETH wallet already exists\",\"zh\":\"%s 以太坊钱包已存在\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "wallet_not_found",
+            "Trans": "{\"en\":\"Wallet is not found\",\"zh\":\"钱包地址未找到\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "wallets",
+            "Trans": "{\"en\":\"Wallets\",\"zh\":\"钱包地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_accept_contract",
+            "Trans": "{\"en\":\"Do you really want to accept this contract?\",\"zh\":\"你确定要同意此合约吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_accept_decision",
+            "Trans": "{\"en\":\"Do you really want to accept the decision?\",\"zh\":\"你确定同意此决议吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_accept_document",
+            "Trans": "{\"en\":\"Do you really want to accept the document?\",\"zh\":\"你确定接受此文档吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_activate_ecosystem_wallet",
+            "Trans": "{\"en\":\"Do you really want to activate the current ecological wallet?（ The wallet Settings on the contract binding page will be invalid after activation）\",\"zh\":\"您真的想要激活当前生态钱包吗？（激活后合约绑定页面的钱包设置将无效）\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_add_investor",
+            "Trans": "{\"en\":\"Do you really want to add the investor with this public key?\",\"zh\":\"您真的想用这个公钥添加投资者吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_assign_member_to_role",
+            "Trans": "{\"en\":\"Do you really want to assign this member of the ecosystem to the role?\",\"zh\":\"你真的想把该角色分配给该生态系统的成员吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_bind_contract",
+            "Trans": "{\"en\":\"Do you want to bind contract to this wallet?\",\"zh\":\"您想把合约绑定到该钱包地址上吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_block_key",
+            "Trans": "{\"en\":\"Do you want to block this key?\",\"zh\":\"您想要阻止此key吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_change_status",
+            "Trans": "{\"en\":\"Do you really want to change the status of this member?\",\"zh\":\"您真的想更改该成员的状态吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_close_account",
+            "Trans": "{\"en\":\"Do you really want to close this account?\",\"zh\":\"你真的想结清该账户吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_close_notification",
+            "Trans": "{\"en\":\"Do you want to close this notification?\",\"zh\":\"您想关闭此通知吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_create_block_timer",
+            "Trans": "{\"en\":\"Do you want to create a block timer?\",\"zh\":\"您想要创建一个区块计时器吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_create_new_account",
+            "Trans": "{\"en\":\"Do you want to create a new account?\",\"zh\":\"您想要创建一个新帐户吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_create_new_role",
+            "Trans": "{\"en\":\"Do you want to create a new role?\",\"zh\":\"您想要创建一个新角色吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_create_role_company",
+            "Trans": "{\"en\":\"Do you want to create a new role for the company?\",\"zh\":\"你想为公司创造一个新角色吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_deactivate_ecosystem_wallet",
+            "Trans": "{\"en\":\"Do you really want to deactivate your current ecological wallet?\",\"zh\":\"您真的想要冻结当前生态钱包地址吗？\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_delete_company",
+            "Trans": "{\"en\":\"Do you really want to delete the company? All company roles will also be deleted\",\"zh\":\"你真的想删除该公司吗?所有公司角色也将被删除\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_delete_key",
+            "Trans": "{\"en\":\"Do you want to delete this key?\",\"zh\":\"要删除此key吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_delete_member",
+            "Trans": "{\"en\":\"Do you really want to delete this member?\",\"zh\":\"您真的想删除该成员吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_delete_participant_company",
+            "Trans": "{\"en\":\"Do you really want to remove the participant from the company?\",\"zh\":\"你真的想从公司中移除该参与者吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_delete_role",
+            "Trans": "{\"en\":\"Do you really want to delete this role?\",\"zh\":\"您真的想删除该角色吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_delete_tokens",
+            "Trans": "{\"en\":\"Do you really want to delete this tokens?\",\"zh\":\"您真的想删除该通证吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_delete_voting",
+            "Trans": "{\"en\":\"Do you really want to delete this voting?\",\"zh\":\"你真的想删除该投票吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_edit_block_timer",
+            "Trans": "{\"en\":\"Do you really want to edit the block timer?\",\"zh\":\"您真的想修改区块计时器吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_finish_processing",
+            "Trans": "{\"en\":\"Do you really want to finish processing this notification?\",\"zh\":\"您真的想要完成此通知的处理吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_make_emission",
+            "Trans": "{\"en\":\"Do you really want to make an emission?\",\"zh\":\"确认发行?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_reject_contract",
+            "Trans": "{\"en\":\"Do you really want to reject this contract?\",\"zh\":\"你真的想拒绝该合约吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_reject_decision",
+            "Trans": "{\"en\":\"Do you really want to reject the decision?\",\"zh\":\"你真的想拒绝该决议吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_reject_document",
+            "Trans": "{\"en\":\"Do you really want to reject the document?\",\"zh\":\"您真的想拒绝该文档吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_reject_request",
+            "Trans": "{\"en\":\"Do you really want to reject the request?\",\"zh\":\"您真的想拒绝这个请求吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_release_tokens",
+            "Trans": "{\"en\":\"Do you really want to release new tokens?\",\"zh\":\"您真的想发行新的通证吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_resign",
+            "Trans": "{\"en\":\"Do you really want to resign the Validator role?\",\"zh\":\"您真的想辞去验证人的角色吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_save_changes",
+            "Trans": "{\"en\":\"Do you want to save the changes?\",\"zh\":\"您想保存更改吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_send_notific_voters",
+            "Trans": "{\"en\":\"Do you really want to send the notification to all voters?\",\"zh\":\"你真的想把通知发给所有投票人吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_send_tokens",
+            "Trans": "{\"en\":\"Do you really want to send tokens to this recipient?\",\"zh\":\"您真的想向该接收方发送通证吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_start_processing_notification",
+            "Trans": "{\"en\":\"Do you want to start processing the notification?\",\"zh\":\"您想开始处理通知吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_unbind_contract",
+            "Trans": "{\"en\":\"Do you really want to unbind this contract?\",\"zh\":\"你真的想解除该合约吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_unblock_key",
+            "Trans": "{\"en\":\"Do you want to unblock this key?\",\"zh\":\"您想解除此密钥的锁定吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "want_vote_for_candidate",
+            "Trans": "{\"en\":\"Do you really want to vote for this candidate?\",\"zh\":\"你真的想投票给该候选人吗?\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "was_created_she",
+            "Trans": "{\"en\":\"was created\",\"zh\":\"创建成功\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "web_form_address",
+            "Trans": "{\"en\":\"Web form address\",\"zh\":\"Web表单的地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "web_form_desc",
+            "Trans": "{\"en\":\"Address of the web form for applying for the membership (for someones without GAC)\",\"zh\":\"申请成为会员的网上表格地址（适用于没有GAC的人士）\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "web_page_address",
+            "Trans": "{\"en\":\"Web page address\",\"zh\":\"网页地址\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "welcome_text",
+            "Trans": "{\"en\":\"You, as a Founder, hold a complete set of rights for controlling the ecosystem: creating and editing applications, modifying ecosystem parameters, etc. Before starting work, you need to install platform applications. After that you can create your own applications. Documentation can be founded here: \",\"zh\":\"作为生态创建人，您拥有一整套控制生态系统的权限：创建和编辑应用程序、修改生态系统参数等。在开始工作之前，您需要安装平台应用程序。在此之后，您可以创建自己的应用程序。开发技术文档请点击以下链接：\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "welcome_title",
+            "Trans": "{\"en\":\"Congratulations! You have created your own ecosystem\",\"zh\":\"恭喜!您已成功创建了自己的生态系统\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "write_permissions",
+            "Trans": "{\"en\":\"Write permissions\",\"zh\":\"读写权限\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "written_value",
+            "Trans": "{\"en\":\"Written value\",\"zh\":\"写入值\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "written_value_desc",
+            "Trans": "{\"en\":\"The value that should be written to the table (Example: 1)\",\"zh\":\"应该写入表中的值(示例:1)\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "wrong_pub",
+            "Trans": "{\"en\":\"Wrong public key\",\"zh\":\"错误公钥\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "wrong_type",
+            "Trans": "{\"en\":\"Wrong type\",\"zh\":\"错误类型\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "x_days",
+            "Trans": "{\"en\":\"%v days\",\"zh\":\"%v天\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "x_invalid",
+            "Trans": "{\"en\":\"The %v is not valid\",\"zh\":\"%v无效\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "x_not_found",
+            "Trans": "{\"en\":\"The %q is not found\",\"zh\":\"未找到%q\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "x_role_only_action",
+            "Trans": "{\"en\":\"This action is allowed for the %v role only\",\"zh\":\"只允许%v角色执行此操作\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "yes",
+            "Trans": "{\"en\":\"Yes\",\"zh\":\"是\"}",
+            "Type": "languages"
+        },
+        {
+            "Name": "you",
+            "Trans": "{\"en\":\"You\",\"zh\":\"您\"}",
+            "Type": "languages"
+        }
+    ]
+}

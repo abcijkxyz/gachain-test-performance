@@ -1,0 +1,24 @@
+certifi==2017.7.27.1
+chardet==3.0.4
+idna==2.5
+psycopg2==2.8.6
+py-postgresql==1.2.1
+requests==2.18.4
+# selenium==3.6.0
+urllib3==1.22
+locustio==0.14.6
+# locustio==0.11.0
+# locust==1.5.3
+pytest==3.7.1
+PyYAML==3.13
+greenlet==1.1.0
+gevent==21.1.2
+xlrd==1.2.0
+crccheck==1.0
+puremagic==1.10
+cryptography==3.4.7
+# git+https://github.com/blitzstern5/genesis-blockchain-tools@master
+argparse~=1.4.0
+msgpack~=1.0.2
+six~=1.16.0
+# locust~=1.5.3

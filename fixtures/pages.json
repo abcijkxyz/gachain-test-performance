@@ -1,0 +1,967 @@
+{    
+	"button":{
+		"code": "Button(Body: Create user, Class: btn btn-primary, Contract: NewUser)",
+		"Menu": "default_menu",
+		"content": ""
+	},
+	"show":{
+		"code": "Input(Name: \"Test\", Value: \"Hello\")\n Div(){ \"Hello world!\"\n }.Show(\"Test=Hello\")",
+		"menu": "default_menu",
+		"content":  {
+				"tag": "div",
+				"attr": {"show": [{"Test": "Hello"}]}
+				}
+	},
+	"hide":{
+		"code": "Form(){\n Input(Name: \"Test\", Value: \"HR\")\n Div(){\n Hello world!\n }.Hide(\"Test=Hello\")}",
+		"menu": "default_menu",
+		"content":  {
+				"tag": "div",
+				"attr": {"hide": [{"Test": "Hello"}]}
+				}
+	},
+	"show2":{
+		"code": "Input(Name: \"Test\", Value: \"Hello\")\n Input(Name: \"Test2\", Value: \"World\")\n Div(){\n Hello world!\n }.Show(\"Test=Hello,Test2=World\")",
+		"menu": "default_menu",
+		"content":  {
+				"tag": "div",
+				"attr": {"show": [{"Test": "Hello", "Test2": "World"}]}
+				}
+	},
+	"errorRedirect":{
+		"code": "Button(Body: Hello, Contract: con1).ErrorRedirect(PageParams: name=5, PageName: \"errpage\", ErrorID: Problem)",
+		"menu": "default_menu",
+		"content":  {
+			"tag": "button",
+			"attr": {
+				"contract": "con1",
+				"errredirect": {
+					"Problem": {
+						"errorid": "Problem",
+						"pagename": "errpage",
+						"pageparams": {"name": {"text": "5", "type": "text"}}
+						}
+					}
+				}
+			}
+	},
+	"buttonCompositeContract":{
+		"code": "Button(Body: addpage).CompositeContract(NewPage, [{\"param1\": \"val1\"}])",
+		"Menu": "default_menu",
+		"content": [
+			  {
+				"tag": "button",
+				"attr": {
+				  "composite": [
+					{
+					  "name": "NewPage",
+					  "data": [
+						{
+						  "param1": "val1"
+						}
+					  ]
+					}
+				  ]
+				},
+				"children": [
+				  {
+					"tag": "text",
+					"text": "addpage"
+				  }
+				]
+			  }
+			]
+	},
+	"buttonPopup":{
+		"code": "Button(Body: popup).Popup(50, Hello)",
+		"Menu": "default_menu",
+		"content": [
+			  {
+				"tag": "button",
+				"attr": {
+				  "popup": {
+					"header": "Hello",
+					"width": "50"
+				  }
+				},
+				"children": [
+				  {
+					"tag": "text",
+					"text": "popup"
+				  }
+				]
+			  }
+			]
+	},
+	"addToolButtonPopup":{
+		"code": "AddToolButton(Title: popup, Page: not_page, Icon: icon-plus).Popup(Header: request, Width: \"30\")",
+		"Menu": "default_menu",
+		"content": [
+			  {
+				  "tag": "addtoolbutton",
+				  "attr": {
+					"icon": "icon-plus",
+					"page": "not_page",
+					"popup": {
+					  "header": "request",
+					  "width": "30"
+					},
+					"title": "popup"
+				  }
+				}
+			]
+	},
+    "selectorFromDB":{
+		"code": "DBFind(\"menu\", data) %n Select(MySelect, data, \"name\")",
+		"menu": "default_menu",
+		"content": ""
+	},
+	"hint":{
+		"code": "Hint(Icon: icon.jpg, Title: \"Hi\", Text: \"Im hint\")",
+		"menu": "default_menu",
+		"content": {
+		"tag": "hint",
+		"attr": {
+		"icon": "icon.jpg",
+		"text": "Im hint",
+		"title": "Hi"}
+		}
+	},
+	"selectorFromData":{
+		"code": "Data(myData, \"gender\"){\"Men\", \"Women\", \"Between\"} %n Select(mySelect, myData, \"gender\")",
+		"menu": "default_menu",
+		"content": ""
+	},
+	"divs":{
+		"code": "Div(content-wrapper){ %n Div(panel panel-primary){ %n Div(panel-heading, Header) %n }}",
+		"menu": "default_menu",
+		"content": {
+			"tag":"div",
+			"attr": {
+				"class": "content-wrapper"
+			},
+			"children":{
+				"tag":"div",
+				"attr": {
+					"class": "panel panel-primary"
+				},
+				"children":{
+					"tag":"div",
+					"attr": {
+						"class": "panel-heading"
+					},
+					"children": [
+						{
+							"text": "Header"
+						}
+					]
+				}
+			}
+		}
+	},
+    "setVar":{
+		"code": "SetVar(head, Header) Div(, #head#)",
+		"menu": "default_menu",
+		"content": {
+			"tag": "div",
+			"children": [
+				{
+					"text": "Header"
+				}
+			]
+		}
+	},
+    "varAsIs": {
+		"code": "Span(#ecosystem_id#) VarAsIs(ecosystem_id, #ecosystem_id#) Em(#ecosystem_id#) VarAsIs(ecosystem_id, I am #ecosystem_id#) Div(, #ecosystem_id#)",
+		"menu": "default_menu",
+		"content":  [
+			{
+			  "tag": "span",
+			  "children": [
+				{
+				  "tag": "text",
+				  "text": "1"
+				}
+			  ]
+			},
+			{
+			  "tag": "em",
+			  "children": [
+				{
+				  "tag": "text",
+				  "text": "1"
+				}
+			  ]
+			},
+			{
+			  "tag": "div",
+			  "children": [
+				{
+				  "tag": "text",
+				  "text": "I am #ecosystem_id#"
+				}
+			  ]
+			}
+		  ]
+	},
+	"input":{
+		"code": "Input(Class: form-control, Placeholder: text, Type: text, Name: name)",
+		"menu": "default_menu",
+		"content":  {
+			"tag": "input",
+			"attr": {
+				"class": "form-control",
+				"name": "name",
+				"placeholder": "text",
+				"type": "text"
+			}
+		}
+	},
+    "menuGroup":{
+		"code": "MenuGroup(My Menu){ MenuItem(Dahsboard, dashboard_default) MenuItem(Main, default_page)}",
+		"menu": "default_menu",
+		"content": {
+			  "tag": "menugroup",
+			  "attr": {
+				"name": "My Menu",
+				"title": "My Menu"
+			  },
+			  "children": [
+				{
+				  "tag": "menuitem",
+				  "attr": {
+					"page": "dashboard_default",
+					"title": "Dahsboard"
+				  }
+				},
+				{
+				  "tag": "menuitem",
+				  "attr": {
+					"page": "default_page",
+					"title": "Main"
+				  }
+				}
+			  ]
+		}
+	},
+    "linkPage":{
+		"code": "LinkPage(Show my wallet, default_page, mybtn_class)",
+		"menu": "default_menu",
+		"content": {
+            "tag": "linkpage",
+            "attr": {
+              "class": "mybtn_class",
+              "page": "default_page"
+            },
+            "children": [
+              {
+                "text": "Show my wallet"
+              }
+            ]
+        }
+	},
+    "ecosysParam":{
+		"code": "Span(EcosysParam(max_tx_block_per_user))",
+		"menu": "default_menu",
+		"content": {
+            "tag": "span",
+            "children": [
+              {
+                "text": "100"
+              }
+            ]
+        }
+	},
+    "paragraph":{
+		"code": "p(This is paragraph)",
+		"menu": "default_menu",
+		"content": {
+            "tag": "text",
+            "text": "p(This is paragraph)"
+        }
+	},
+    "getVar":{
+		"code": "SetVar(name, FullName) Span(GetVar(name))",
+		"menu": "default_menu",
+		"content": {
+            "tag": "span",
+            "children": [
+              {
+                "text": "FullName"
+              }
+            ]
+        }
+	},
+    "iff":{
+		"code":"If(1<5){5 bigger than 1}.Else{Error}",
+		"menu": "default_menu",
+		"content": {
+            "tag": "text",
+            "text": "5 bigger than 1"
+        }
+	},
+    "orr":{
+		"code": "If(Or(1>5,10>5), 1 or 10 bigger than 5)",
+		"menu": "default_menu",
+        "content": {
+            "tag": "text",
+            "text": "1 or 10 bigger than 5"
+        }
+	},
+    "andd":{
+		"code": "If(And(1>0,5>0), 1 and 5 bigger than 0)",
+		"menu": "default_menu",
+        "content": {
+            "tag": "text",
+            "text": "1 and 5 bigger than 0"
+        }
+	},
+    "form":{
+		"code": "Form(){Span(Test)}",
+		"menu": "default_menu",
+		"content": {
+            "tag": "form",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "Test"
+                  }
+                ]
+              }
+            ]
+        }
+	},
+    "label":{
+		"code": "Label(For: name)",
+		"menu": "default_menu",
+		"content": {
+            "tag": "label",
+            "attr": {
+              "for": "name"
+            }
+        }
+	},
+    "span":{
+		"code": "Span(Test)",
+		"menu": "default_menu",
+		"content": {
+            "tag": "span",
+            "children": [
+              {
+                "text": "Test"
+              }
+            ]
+        }
+	},
+    "langRes":{
+		"code": "",
+		"menu": "default_menu",
+		"content": [{"text": "Lang_enМир_ru"}]
+	},
+    "inputErr":{
+		"code": "InputErr(Name: Login, minLength: Value is too short, maxLength: The length of the value must be less than 10 characters)Input(Name: Login, Type: text).Validate(minLength: 6, maxLength: 10)",
+		"menu": "default_menu",
+		"content":  {
+			"tag": "inputerr",
+			"attr": {
+				"maxlength": "The length of the value must be less than 10 characters",
+				"minlength": "Value is too short",
+				"name": "Login"
+			}
+		}
+	},
+    "include":{
+		"code": "",
+		"menu": "default_menu",
+		"content": [{"text": "Hello page!"}]
+	},
+    "image":{
+		"code": "Image(avatar)",
+		"menu": "default_menu",
+		"content": ""
+	},
+    "inputImage":{
+		"code": "ImageInput(avatar, 100, 2/1)",
+		"menu": "default_menu",
+		"content": [
+			  {
+				"tag": "imageinput",
+				"attr": {
+				  "name": "avatar",
+				  "ratio": "2/1",
+				  "width": "100"
+				}
+			  }
+		]
+	},
+    "alert":{
+		"code": "Button(Body: Create user, Class: btn btn-primary, Contract: NewUser).Alert(Text: Name, ConfirmButton: Ok, CancelButton: Cancel, Icon: question)",
+		"menu": "default_menu",
+		"content": {
+			"tag": "button",
+			"attr": {
+				"alert": {
+					"cancelbutton": "Cancel",
+					"confirmbutton": "Ok",
+					"icon": "question",
+					"text": "Name"
+				}
+			}
+		}
+	},
+    "table":{
+		"code": "DBFind(\"menu\",mysrc) Table(mysrc,\"Name=name,Value=value,Conditions=conditions\")",
+		"menu": "default_menu",
+		"content": "[{'tag': 'dbfind', 'attr': {'columns': ['id', 'name', 'value', 'conditions'], 'data': [['1', 'Block1', 'Hello page!', 'true']], 'name': 'blocks', 'source': 'mysrc', 'types': ['text', 'text', 'text', 'text']}}, {'tag': 'table', 'attr': {'columns': [{'Name': 'name', 'Title': 'Name'}, {'Name': 'value', 'Title': 'Value'}, {'Name': 'conditions', 'Title': 'Conditions'}], 'source': 'mysrc'}}]"
+	},
+    "kurs":{
+		"code": "Em(cursive)",
+		"menu": "default_menu",
+		"content": [
+			  {
+				"tag": "em",
+				"children": [
+				  {
+					"text": "cursive"
+				  }
+				]
+			  }
+		]
+	},
+    "strong":{
+		"code": "Strong(strong)",
+		"menu": "default_menu",
+		"content":  [
+			  {
+				"tag": "strong",
+				"children": [
+				  {
+					"text": "strong"
+				  }
+				]
+			  }
+		]
+	},
+    "getColumnType":{
+		"code": "GetColumnType(contracts, id)",
+		"menu": "default_menu",
+		"content": {"text": "number"}
+    },
+    "sys_var_isMobile":{
+		"code": "Em(#isMobile#)",
+		"menu": "default_menu",
+		"content": [{"tag": "em", "children": [{"tag": "text", "text": "0"}]}]
+	},
+    "sys_var_roleID":{
+		"code": "Em(#role_id#)",
+		"menu": "default_menu",
+		"content": [{"tag": "em", "children": [{"tag": "text", "text": "0"}]}]
+	},
+    "sys_var_ecosystemID":{
+		"code": "Em(#ecosystem_id#)",
+		"menu": "default_menu",
+		"content": [{"tag": "em", "children": [{"tag": "text", "text": "1"}]}]
+	},
+    "sys_var_ecosystem_name":{
+		"code": "Em(#ecosystem_name#)",
+		"menu": "default_menu",
+		"content":""
+	},
+    "sys_var_keyID":{
+		"code": "Em(#key_id#)",
+		"menu": "default_menu",
+		"content": ""
+	},
+    "sys_var_guest_key":{
+		"code": "Em(#guest_key#)",
+		"menu": "default_menu",
+		"content": "4544233900443112470"
+	},
+    "dbfindWhereCount":{
+		"code": "DBFind(Name: contracts, Source: con).Where({\"$and\": [{id:{\"$gte\": 1}}, {id:{\"$lte\": 3}}]}).Count(cnt) Em(#cnt#)",
+		"menu": "default_menu",
+		"content": "3"
+	},
+    "dbfindWhereIdCount":{
+		"code": "DBFind(Name: contracts, Source: con).WhereId(1).Count(cnt) Em(#cnt#)",
+		"menu": "default_menu",
+		"content": "1"
+	},
+    "address":{
+		"code": "Span(Address(4202110198495717481))",
+		"menu": "default_menu",
+		"content": {
+			  "tag": "span",
+			  "children": [
+				{
+				  "tag": "text",
+				  "text": "0420-2110-1984-9571-7481"
+				}
+			  ]
+			}
+	},
+    "money": {
+		"code1": "Span(Money(200000000000))",
+		"code2": "Span(Money(10,-5))",
+		"menu": "default_menu",
+		"content1": {
+			  "tag": "span",
+			  "children": [
+				{
+				  "tag": "text",
+				  "text": "0.0000002"
+				}
+			  ]
+			},
+		"content2": {
+			  "tag": "span",
+			  "children": [
+				{
+				  "tag": "text",
+				  "text": "1000000"
+				}
+			  ]
+			}
+	},
+	"calculate": {
+		"info_money": "Set for type of money",
+		"moneyCode1": "SetVar(two_val1, 125) Span(Calculate(#two_val1#, money, Prec:2))",
+		"moneyCode2": "SetVar(three_val1, 125.1) Span(Calculate(#three_val1#, money, Prec:2))",
+		"moneyCode3": "SetVar(three_val2, 125.25) Span(Calculate(#three_val2#, money, Prec:7))",
+		"moneyCode4": "SetVar(four_val1, 125.452) Span(Calculate(#four_val1#, money, Prec:2))",
+		"moneyCode5": "SetVar(four_val2, 125.452) Span(Calculate(#four_val2#, money, Prec:1))",
+		"moneyCode6": "SetVar(four_val3, 125.4527) Span(Calculate(#four_val3#, money, Prec:3))",
+		"moneyCode7": "SetVar(five_val1, 125.452) Span(Calculate(#five_val1#, money, Prec:0))",
+		"moneyCode8": "SetVar(five_val2, 125.55) Span(Calculate(#five_val2#, money, Prec:0))",
+		"moneyCode9": "SetVar(five_val3, 125.7) Span(Calculate(#five_val3#, money, Prec:0))",
+		"moneyCode10": "SetVar(six_val1, 125.452) Span(Calculate(#six_val1#, money, Prec:-1))",
+		"moneyCode11": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(#a#-93278) - 0.45678, Type: money, Prec:3))",
+		"moneyCode12": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(#a#-93278) - 0.45678, Type: money))",
+		"moneyCode13": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(93278-#a#) - 0.45678, Type: money, Prec:0))",
+		"moneyCode14": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(#a#-93278) - 0.45678, Type: money, Prec:-5))",
+		"moneyCode15": "SetVar(a,123.5554) Span(Calculate( Exp: #a#, Type: money, Prec:3 ))",
+		"info_float": "Set for type of float",
+		"floatCode1": "SetVar(two_val1, 125) Span(Calculate(#two_val1#, float, Prec:2))",
+		"floatCode2": "SetVar(three_val1, 125.1) Span(Calculate(#three_val1#, float, Prec:2))",
+		"floatCode3": "SetVar(three_val2, 125.25) Span(Calculate(#three_val2#, float, Prec:7))",
+		"floatCode4": "SetVar(four_val1, 125.452) Span(Calculate(#four_val1#, float, Prec:2))",
+		"floatCode5": "SetVar(four_val2, 125.452) Span(Calculate(#four_val2#, float, Prec:1))",
+		"floatCode6": "SetVar(four_val3, 125.4527) Span(Calculate(#four_val3#, float, Prec:3))",
+		"floatCode7": "SetVar(five_val1, 125.452) Span(Calculate(#five_val1#, float, Prec:0))",
+		"floatCode8": "SetVar(five_val2, 125.55) Span(Calculate(#five_val2#, float, Prec:0))",
+		"floatCode9": "SetVar(five_val3, 125.7) Span(Calculate(#five_val3#, float, Prec:0))",
+		"floatCode10": "SetVar(six_val1, 125.452) Span(Calculate(#six_val1#, float, Prec:-1))",
+		"floatCode11": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(#a#-93278) - 0.45678, Type: float, Prec:3))",
+		"floatCode12": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(#a#-93278) - 0.45678, Type: float))",
+		"floatCode13": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(93278-#a#) - 0.45678, Type: float, Prec:0))",
+		"floatCode14": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(#a#-93278) - 0.45678, Type: float, Prec:-5))",
+		"floatCode15": "SetVar(a,123.5554) Span(Calculate( Exp: #a#, Type: float, Prec:2 ))",
+
+		"info_int": "Set for type of float",
+		"intCode1": "SetVar(int_val1, 10) Span(Calculate(#int_val1#, int))",
+		"intCode2": "SetVar(int_val1, 10) Span(Calculate(#int_val1#, int, Prec:2))",
+		"intCode3": "SetVar(int_val1, 10) Span(Calculate(#int_val1#, int, Prec:0))",
+		"intCode4": "SetVar(int_val1, 10) Span(Calculate(#int_val1#, int, Prec:-5))",
+		"intCode5": "SetVar(int_val1, 125.5) Span(Calculate(#int_val1#, int))",
+		"intCode6": "SetVar(a,2) Span(Calculate( Exp: (342+5000)*(#a#-93278), Type: int, Prec:5))",
+
+		"wrongCode1": "SetVar(h, \"hello\") Span(Calculate(#h#, int, Prec:0) Calculate(#h#, money, Prec:-6) Calculate(#h#, float, Prec:6))",
+
+		"menu": "default_menu",
+		"moneyContent1": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125"
+				}
+			]
+		},
+		"moneyContent2": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.1"
+				}
+			]
+		},
+		"moneyContent3": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.25"
+				}
+			]
+		},
+		"moneyContent4": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.45"
+				}
+			]
+		},
+		"moneyContent5": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.5"
+				}
+			]
+		},
+		"moneyContent6": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.453"
+				}
+			]
+		},
+		"moneyContent7": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125"
+				}
+			]
+		},
+		"moneyContent8": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "126"
+				}
+			]
+		},
+		"moneyContent9": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "126"
+				}
+			]
+		},
+		"moneyContent10": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "precision is negative"
+				}
+			]
+		},
+		"moneyContent11": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "-498280392.457"
+				}
+			]
+		},
+		"moneyContent12": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "-498280392.45678"
+				}
+			]
+		},
+		"moneyContent13": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "498280392"
+				}
+			]
+		},
+		"moneyContent14": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "precision is negative"
+				}
+			]
+		},
+		"moneyContent15": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "123.555"
+				}
+			]
+		},
+		"floatContent1": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125"
+				}
+			]
+		},
+		"floatContent2": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.1"
+				}
+			]
+		},
+		"floatContent3": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.25"
+				}
+			]
+		},
+		"floatContent4": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.45"
+				}
+			]
+		},
+		"floatContent5": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.5"
+				}
+			]
+		},
+		"floatContent6": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125.453"
+				}
+			]
+		},
+		"floatContent7": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "125"
+				}
+			]
+		},
+		"floatContent8": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "126"
+				}
+			]
+		},
+		"floatContent9": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "126"
+				}
+			]
+		},
+		"floatContent10": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "precision is negative"
+				}
+			]
+		},
+		"floatContent11": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "-498280392.457"
+				}
+			]
+		},
+		"floatContent12": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "-498280392.45678"
+				}
+			]
+		},
+		"floatContent13": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "498280392"
+				}
+			]
+		},
+		"floatContent14": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "precision is negative"
+				}
+			]
+		},
+		"floatContent15": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "123.56"
+				}
+			]
+		},
+		"intContent1": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "10"
+				}
+			]
+		},
+		"intContent2": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "10"
+				}
+			]
+		},
+		"intContent3": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "10"
+				}
+			]
+		},
+		"intContent4": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "10"
+				}
+			]
+		},
+		"intContent5": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "strconv.ParseInt: parsing \"125.5\": invalid syntax"
+				}
+			]
+		},
+		"intContent6": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "-498280392"
+				}
+			]
+		},
+		"wrongContent1": {
+			"tag": "span",
+			"children": [
+				{
+					"tag": "text",
+					"text": "wrong expressionwrong expressionwrong expression"
+				}
+			]
+		}
+	},
+    "arrayToSource": {
+		"code": "SetVar(arr, [1,\"hello\",{\"val\":\"12300\",\"time\": \"1545788052\", \"type\": \"emission\"}, {\"val\": \"555006848\", \"time\": \"1545788125\", \"type\": \"emission\"},bye1]) ArrayToSource(dat, #arr#)",
+		"menu": "default_menu",
+		"content": {
+			  "tag": "arraytosource",
+			  "attr": {
+				"columns": [
+				  "key",
+				  "value"
+				],
+				"data": [
+				  [
+					"0",
+					"1"
+				  ],
+				  [
+					"1",
+					"hello"
+				  ],
+				  [
+					"2",
+					"{\"val\":\"12300\",\"time\": \"1545788052\", \"type\": \"emission\"}"
+				  ],
+				  [
+					"3",
+					"{\"val\": \"555006848\", \"time\": \"1545788125\", \"type\": \"emission\"}"
+				  ],
+				  [
+					"4",
+					"bye1"
+				  ]
+				],
+				"source": "dat",
+				"types": [
+				  "text",
+				  "text"
+				]
+			  }
+			}
+	},
+	"transactionInfo": {
+		"code": "ArrayToSource(dat, [\"hello\", \"my name\",\"is Billy\"])",
+		"menu": "default_menu",
+		"content": {}
+	},
+	"DBFindSortedKeys": {
+		"code": "DBFind(\"keys\").Columns(\"id,ecosystem\").Limit(250)",
+		"menu": "default_menu",
+		"content": {}
+	},
+	"DBFindSortedMembers": {
+		"code": "DBFind(\"members\").Columns(\"id,ecosystem\").Limit(250)",
+		"menu": "default_menu",
+		"content": {}
+	},
+	"DBFindSortedPages": {
+		"code": "DBFind(\"pages\").Columns(\"id,name\").Limit(250)",
+		"menu": "default_menu",
+		"content": {}
+	}
+}

@@ -1,0 +1,15 @@
+[{
+    "url": "https://node21.gachain.org:5079/api/v2",
+    "private_key": "2d7b59f0841001e934af6bd29de6622810e8b90759c6d73988a79e8dbe2f3a6e",
+    "keyID": "1375522148655074302",
+    "pubKey": "04cf6ee1034f0e6ed946163f5b5f548e75c6010c3b99a0b359e5a9a6d1367140322ae8f8a633fe23b6e186f16a9e388afe2c826d726136eb92ea62db17d1e18a24",
+    "tcp_address": "node21.gachain.org:5078",
+    "api_address": "https://node21.gachain.org:5079",
+    "db": {
+        "dbHost": "node21.gachain.org",
+        "dbName": "ts5079",
+        "login": "postgres",
+        "pass": "gachain20200916",
+        "port": "9432"
+    }
+}]
